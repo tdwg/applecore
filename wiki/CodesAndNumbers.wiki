@@ -34,7 +34,7 @@ Provide the specimen number in _catalogNumber_. In combination with the _collect
 
 If specimen numbers are only unique within subcollections of the herbarium, it is useful to prefix to the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be provided in _datasetName_.
 
-Any identifier attached to the specimen that is not used as the [specimen number] or [collector number] may be provided in _otherCatalogNumbers_. This can include the specimen numbers from the original herbaria in the case of an exchange or donation. Separate numbers with "|".
+Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be provided in _otherCatalogNumbers_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|".
 
 == Collector number ==
 No structure, can be anything.
