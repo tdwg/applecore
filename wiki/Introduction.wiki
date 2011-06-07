@@ -1,4 +1,4 @@
-#Introduction to Apple Core
+#summary Introduction to Apple Core
 
 = Goal =
 
