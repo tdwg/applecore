@@ -18,20 +18,38 @@
 
 = Recommendations =
 
+== General ==
+With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a single value per term for all the above terms (no lists of numbers, codes or ids).
+
 == Collection codes ==
 
-If you have an Index Herbariorum coden, put it in collectionCode.
-datasetName is intended for a researcher oriented view of the data.
-For all those terms: there can be only one (1) value (no lists).
+Provide the [http://sciweb.nybg.org/science2/IndexHerbariorum.asp Index Herbariorum] coden of the herbarium in _collectionCode_. If the herbarium does not have an IH coden, use the full herbarium name or acronym instead.
+If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/Biodiversity Collections Index] or another official registry, provide the collection identifier issued by the registry in _collectionID_.
 
 == Specimen number ==
-Provide the primary identifier used by the herbarium for a specimen in *catalogNumber*. This identifier might be called the specimen number, accession number, catalog number or barcode. It consists of a string of characters, which uniquely identifies a specimen within the herbarium.
-If 
+The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically written on or attached to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
 
-If useful add a prefix for a specimen number series.
-Numbers to dump in otherCatalogNumbers: any number on the specimen that is not used as the primary catalogNumber or recordNumber.
+Provide the specimen number in _catalogNumber_. In combination with the _collectionCode_ it ideally creates a unique identifier for each specimen record in the dataset.
+
+If specimen numbers are only unique within subcollections of the herbarium, it is useful to prefix to the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be provided in _datasetName_.
+
+Any identifier attached to the specimen that is not used as the [specimen number] or [collector number] may be provided in _otherCatalogNumbers_. This can include the specimen numbers from the original herbaria in the case of an exchange or donation. Separate numbers with "|".
 
 == Collector number ==
 No structure, can be anything.
 In the case of multiple collector numbers, separate with “;”.
 List the primary number first.
+
+= Examples =
+
+|| *Term* || *Value* ||
+|| [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] || ||
+|| [http://rs.tdwg.org/dwc/terms/institutionID institutionID] || ||
+|| [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || ||
+|| [http://rs.tdwg.org/dwc/terms/collectionID collectionID] || urn:lsid:biocol.org:col:14437 ||
+|| [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode] || MT ||
+|| [http://rs.tdwg.org/dwc/terms/datasetID datasetID] || ||
+|| [http://rs.tdwg.org/dwc/terms/datasetName datasetName] || Bryophyta||
+|| [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber] || BRYO-10001 ||
+|| [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers] || ||
+|| [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber] || ||
