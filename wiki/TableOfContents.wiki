@@ -3,4 +3,4 @@
  * [Introduction]
  * [Glossary]
  * Terms
-  * TypeAndBasisOfRecord
+  * [TypeAndBasisOfRecord dcterms:type / basisOfRecord]
