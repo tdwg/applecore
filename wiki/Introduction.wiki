@@ -1,0 +1,14 @@
+#Introduction to Apple Core
+
+= Goal =
+
+The goal of Apple Core is to provide guidelines and best practices for publishing herbarium specimen information as [http://rs.tdwg.org/dwc/ Darwin Core].
+
+= Scope =
+
+The current scope of Apple Core is *vascular plants*.
+Once this is covered and depending community feedback, we hope to enlarge the scope to:
+ * Algae
+ * Bryophyta
+ * Paleobotany
+ * ...
