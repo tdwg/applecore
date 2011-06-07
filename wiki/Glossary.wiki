@@ -1,4 +1,4 @@
 #summary Glossary of terms
 
-== WikiVerbatim ==
+== Verbatim ==
 As close to the original and with as little interference as possible.
