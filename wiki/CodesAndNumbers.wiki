@@ -19,38 +19,42 @@
 = Recommendations =
 
 == General ==
-With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a single value per term for all the above terms (no lists of numbers, codes or ids).
+With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a single value per term for all the above terms (= no lists).
 
-== Collection codes ==
+== Institution code ==
+{{{ pending }}}
 
-Provide the [http://sciweb.nybg.org/science2/IndexHerbariorum.asp Index Herbariorum] coden of the herbarium in _collectionCode_. If the herbarium does not have an IH coden, use the full herbarium name or acronym instead.
+== Collection code ==
+The collection code is the coden, acronym or name of the herbarium. It is used to identify and reference the herbarium as collection and is often registered with [http://sciweb.nybg.org/science2/IndexHerbariorum.asp Index Herbariorum]). Ideally its coden is unique in the world.
 
-If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/Biodiversity Collections Index] or another official registry, provide the collection identifier issued by the registry in _collectionID_.
+Provide the Index Herbariorum coden of the herbarium in *_collectionCode_*. If the herbarium does not have an IH coden, use the full herbarium name or unregistered acronym instead.
+
+If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _collectionID_.
 
 == Specimen number ==
 The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically written on or attached to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
 
-Provide the specimen number in _catalogNumber_. In combination with the _collectionCode_ it ideally creates a unique identifier for each specimen record in the dataset.
+Provide the specimen number in *_catalogNumber_*. In combination with the _collectionCode_ it ideally creates a unique identifier for each specimen record in the dataset.
 
 If specimen numbers are only unique within subcollections of the herbarium, it is useful to prefix to the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be provided in _datasetName_.
 
 Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be provided in _otherCatalogNumbers_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|".
 
 == Collector number ==
-No structure, can be anything.
-In the case of multiple collector numbers, separate with “;”.
-List the primary number first.
+The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting. Collector numbers often form chronological series of specimens collected by one or more collectors. Duplicate specimens are typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
 
-= Examples =
+Provide the collector number in *_recordNumber_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if possible) and separate with "|".
 
-|| *Term* || *Value* ||
-|| [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] || ||
+= Example =
+
+|| *Term* || *Example* ||
+|| [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] ||  Université de Montréal  ||
 || [http://rs.tdwg.org/dwc/terms/institutionID institutionID] || ||
-|| [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || ||
+|| [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || Université de Montréal ||
 || [http://rs.tdwg.org/dwc/terms/collectionID collectionID] || urn:lsid:biocol.org:col:14437 ||
 || [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode] || MT ||
 || [http://rs.tdwg.org/dwc/terms/datasetID datasetID] || ||
-|| [http://rs.tdwg.org/dwc/terms/datasetName datasetName] || Bryophyta||
-|| [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber] || BRYO-10001 ||
-|| [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers] || ||
-|| [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber] || ||
+|| [http://rs.tdwg.org/dwc/terms/datasetName datasetName] || Vascular plants||
+|| [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber] || MT-168679 ||
+|| [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers] || DAO-94042|SFS-102678 ||
+|| [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber] || 4376 ||
