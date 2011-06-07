@@ -1,3 +1,4 @@
 #summary Sidebar table of contents
 
 * [Introduction]
+* [Glossary]
