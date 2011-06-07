@@ -2,3 +2,5 @@
 
  * [Introduction]
  * [Glossary]
+ * Terms
+  * TypeAndBasisOfRecord
