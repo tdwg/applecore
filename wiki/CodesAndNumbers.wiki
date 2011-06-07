@@ -1,0 +1,37 @@
+#summary Recommendations on codes and numbers used by the herbarium
+<wiki:toc max_depth="2" />
+
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode]
+ * [http://rs.tdwg.org/dwc/terms/institutionID institutionID]
+ * [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode]
+ * [http://rs.tdwg.org/dwc/terms/collectionID collectionID]
+ * [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode]
+ * [http://rs.tdwg.org/dwc/terms/datasetID datasetID]
+ * [http://rs.tdwg.org/dwc/terms/datasetName datasetName]
+
+ * [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber]
+ * [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers]
+
+ * [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]
+
+= Recommendations =
+
+== Collection codes ==
+
+If you have an Index Herbariorum coden, put it in collectionCode.
+datasetName is intended for a researcher oriented view of the data.
+For all those terms: there can be only one (1) value (no lists).
+
+== Specimen number ==
+Provide the primary identifier used by the herbarium for a specimen in *catalogNumber*. This identifier might be called the specimen number, accession number, catalog number or barcode. It consists of a string of characters, which uniquely identifies a specimen within the herbarium.
+If 
+
+If useful add a prefix for a specimen number series.
+Numbers to dump in otherCatalogNumbers: any number on the specimen that is not used as the primary catalogNumber or recordNumber.
+
+== Collector number ==
+No structure, can be anything.
+In the case of multiple collector numbers, separate with “;”.
+List the primary number first.
