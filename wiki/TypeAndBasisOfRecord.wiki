@@ -9,9 +9,9 @@
 = Recommendations =
 
 For a regular herbarium specimen:
- * dcterms:type = PhysicalObject
- * basisOfRecord = PreservedSpecimen
+ * dcterms:type = !PhysicalObject
+ * basisOfRecord = !PreservedSpecimen
 
 For a physical image or drawing of a specimen:
- * dcterms:type = StillImage
- * basisOfRecord = PreservedSpecimen
+ * dcterms:type = !StillImage
+ * basisOfRecord = !PreservedSpecimen
