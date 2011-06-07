@@ -24,6 +24,7 @@ With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a s
 == Collection codes ==
 
 Provide the [http://sciweb.nybg.org/science2/IndexHerbariorum.asp Index Herbariorum] coden of the herbarium in _collectionCode_. If the herbarium does not have an IH coden, use the full herbarium name or acronym instead.
+
 If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/Biodiversity Collections Index] or another official registry, provide the collection identifier issued by the registry in _collectionID_.
 
 == Specimen number ==
