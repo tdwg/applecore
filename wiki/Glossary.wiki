@@ -1,0 +1,4 @@
+#summary Glossary of terms
+
+== verbatim ==
+As close to the original and with as little interference as possible.
