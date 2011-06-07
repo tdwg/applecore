@@ -3,7 +3,7 @@
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type]
- * [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecords]
+ * [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord]
 
 
 = Recommendations =
