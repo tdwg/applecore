@@ -29,7 +29,7 @@ The collection code is the coden, acronym or name of the herbarium. It is used t
 
 Provide the Index Herbariorum coden of the herbarium in *_collectionCode_*. If the herbarium does not have an IH coden, use the full herbarium name or unregistered acronym instead.
 
-If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _collectionID_.
+If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/ Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _collectionID_.
 
 == Specimen number ==
 The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically written on or attached to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
@@ -41,9 +41,9 @@ If specimen numbers are only unique within subcollections of the herbarium, it i
 Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be provided in _otherCatalogNumbers_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|".
 
 == Collector number ==
-The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting. Collector numbers often form chronological series of specimens collected by one or more collectors. Duplicate specimens are typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
+The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting. Collector numbers - also called collection numbers - often form chronological series of specimens collected by one or more collectors. Duplicate specimens are typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
 
-Provide the collector number in *_recordNumber_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if possible) and separate with "|".
+Provide the collector number in *_recordNumber_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|".
 
 = Example =
 
