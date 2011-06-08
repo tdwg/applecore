@@ -1,5 +1,3 @@
-#summary Recommendations on dcterms:type and basisOfRecord
-
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type]
@@ -9,9 +7,11 @@
 = Recommendations =
 
 For a regular herbarium specimen:
- * dcterms:type = !PhysicalObject
- * basisOfRecord = !PreservedSpecimen
+|| *Term* || *Value* ||
+|| [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type] || !PhysicalObject ||
+|| [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord] || !PreservedSpecimen ||
 
 For a physical image or drawing of a specimen:
- * dcterms:type = !StillImage
- * basisOfRecord = !PreservedSpecimen
+|| *Term* || *Value* ||
+|| [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type] || !StillImage ||
+|| [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord] || !PreservedSpecimen ||
