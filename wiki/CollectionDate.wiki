@@ -1,0 +1,20 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/eventDate eventDate]
+ * [http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate]
+ * [http://rs.tdwg.org/dwc/terms/eventTime eventTime]
+ * [http://rs.tdwg.org/dwc/terms/startDayOfYear startDayOfYear]
+ * [http://rs.tdwg.org/dwc/terms/endDayOfYear endDayOfYear]
+ * [http://rs.tdwg.org/dwc/terms/year year]
+ * [http://rs.tdwg.org/dwc/terms/month month]
+ * [http://rs.tdwg.org/dwc/terms/day day]
+
+= Recommendations =
+
+Provide everything you can.
+
+Format dates according to ISO 8601:2004(E) in eventDate (if you can).
+
+Put the most original version of the date in verbatimEventDate.
+
+For ranges, do not provide year, month, day.
