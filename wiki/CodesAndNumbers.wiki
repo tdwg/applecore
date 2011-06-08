@@ -1,5 +1,3 @@
-#summary Recommendations on codes and numbers used by the herbarium
-
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode]
