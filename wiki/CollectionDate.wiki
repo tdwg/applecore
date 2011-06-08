@@ -11,6 +11,24 @@
 
 = Recommendations =
 
+The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label. It can be written in various data formats and is recorded in collection databases in numerous ways.
+
+Example: Jul 29 - Aug 2, 1957
+
+|| date || Jul 29 - Aug 2, 1957 ||
+
+|| date || 1957 Jul 29 - Aug ||
+
+
+|| endDate ||
+|| year or startYear ||
+|| month or startMonth ||
+|| day or startDay ||
+|| endYear ||
+|| endMonth ||
+|| endYear ||
+|| verbatimDate ||
+
 Provide everything you can.
 
 Format dates according to ISO 8601:2004(E) in eventDate (if you can).
@@ -31,6 +49,8 @@ For two dates
 || year || 1991 || 2004 || 1999 ||  ||  ||  ||
 || month || 7 ||  ||  || 3 ||  ||  ||
 || day || 1 ||  ||  || 12 ||  ||  ||
+
+The eventDate in example 5 and 6 can be written as 1991-05-16/08-07 and 1947-07-24/25 respectively.
 
 ----
 
