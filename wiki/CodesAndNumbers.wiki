@@ -1,5 +1,4 @@
 #summary Recommendations on codes and numbers used by the herbarium
-<wiki:toc max_depth="2" />
 
 = Terms =
 
