@@ -4,7 +4,7 @@
   * [TypeAndBasisOfRecord Type and basis of record]
   * [CodesAndNumbers Codes and numbers]
   * [Collectors]
-  * [CollectingDate Collecting date]
+  * [CollectionDate Collection date]
   * [Sampling]
   * [Ecology]
   * [Habitat]
