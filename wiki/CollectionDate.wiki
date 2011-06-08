@@ -1,7 +1,7 @@
 = Terms =
 
- * [http://rs.tdwg.org/dwc/terms/eventDate eventDate]
  * [http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate]
+ * [http://rs.tdwg.org/dwc/terms/eventDate eventDate]
  * [http://rs.tdwg.org/dwc/terms/eventTime eventTime]
  * [http://rs.tdwg.org/dwc/terms/startDayOfYear startDayOfYear]
  * [http://rs.tdwg.org/dwc/terms/endDayOfYear endDayOfYear]
@@ -18,3 +18,66 @@ Format dates according to ISO 8601:2004(E) in eventDate (if you can).
 Put the most original version of the date in verbatimEventDate.
 
 For ranges, do not provide year, month, day.
+For two dates
+
+= Examples =
+
+|| *Term* || *Value* ||
+|| verbatimEventDate || 1 juillet 1991 ||
+|| eventDate || 1991-07-01 ||
+|| eventTime ||  ||
+|| startDayOfYear || 182 ||
+|| endDayOfYear || 182 ||
+|| year || 1991 ||
+|| month || 7 ||
+|| day || 1 ||
+
+|| *Term* || *Value* ||
+|| verbatimEventDate || July 24-25, 1947 ||
+|| eventDate || 1947-07-24/1947-07-25 ||
+|| eventTime ||  ||
+|| startDayOfYear || 205 ||
+|| endDayOfYear || 206 ||
+|| year ||  ||
+|| month ||  ||
+|| day ||  ||
+
+|| *Term* || *Value* ||
+|| verbatimEventDate || May 16 and August 7, 1991 ||
+|| eventDate || 1991-05-16/1991-08-07 ||
+|| eventTime ||  ||
+|| startDayOfYear || 136 ||
+|| endDayOfYear || 219 ||
+|| year ||  ||
+|| month ||  ||
+|| day ||  ||
+
+|| *Term* || *Value* ||
+|| verbatimEventDate || 1/3/2004 ||
+|| eventDate || 2004 ||
+|| eventTime ||  ||
+|| startDayOfYear ||  ||
+|| endDayOfYear ||  ||
+|| year || 2004 ||
+|| month ||  ||
+|| day ||  ||
+
+|| *Term* || *Value* ||
+|| verbatimEventDate || March 12 ||
+|| eventDate ||  ||
+|| eventTime ||  ||
+|| startDayOfYear ||  ||
+|| endDayOfYear ||  ||
+|| year ||  ||
+|| month || 3 ||
+|| day || 12 ||
+
+|| *Term* || *Value* ||
+|| verbatimEventDate || Early spring 1999 ||
+|| eventDate || 1999 ||
+|| eventTime ||  ||
+|| startDayOfYear ||  ||
+|| endDayOfYear ||  ||
+|| year || 1999 ||
+|| month ||  ||
+|| day ||  ||
