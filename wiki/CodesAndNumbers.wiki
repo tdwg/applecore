@@ -44,7 +44,7 @@ Provide the collector number in *_recordNumber_*. In the case of multiple collec
 
 = Example =
 
-|| *Term* || *Example* ||
+|| *Term* || *Examples* ||
 || [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] ||  Université de Montréal  ||
 || [http://rs.tdwg.org/dwc/terms/institutionID institutionID] || ||
 || [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || Université de Montréal ||
