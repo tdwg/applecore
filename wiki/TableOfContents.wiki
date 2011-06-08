@@ -3,7 +3,7 @@
  * [Introduction]
  * [Glossary]
  * Terms
-  * [TypeAndBasisOfRecord dcterms:type and basisOfRecord]
+  * [TypeAndBasisOfRecord Type and basis of record]
   * [CodesAndNumbers Codes and numbers]
   * [Collectors]
   * [CollectingDate Collecting date]
