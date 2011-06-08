@@ -42,9 +42,9 @@ The collector number is a personal identifier assigned by the collector to the s
 
 Provide the collector number in *_recordNumber_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|".
 
-= Example =
+= Examples =
 
-|| *Term* || *Examples* ||
+|| *Term* || *Example* ||
 || [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] ||  Université de Montréal  ||
 || [http://rs.tdwg.org/dwc/terms/institutionID institutionID] || ||
 || [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || Université de Montréal ||
