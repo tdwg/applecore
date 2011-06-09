@@ -44,14 +44,14 @@ Provide the collector number in *_recordNumber_*. In the case of multiple collec
 
 = Examples =
 
-|| *Term* || *Example* ||
-|| [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] ||  Université de Montréal  ||
-|| [http://rs.tdwg.org/dwc/terms/institutionID institutionID] || ||
-|| [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || Université de Montréal ||
-|| [http://rs.tdwg.org/dwc/terms/collectionID collectionID] || urn:lsid:biocol.org:col:14437 ||
-|| [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode] || MT ||
-|| [http://rs.tdwg.org/dwc/terms/datasetID datasetID] || ||
-|| [http://rs.tdwg.org/dwc/terms/datasetName datasetName] || Vascular plants||
-|| [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber] || MT-168679 ||
-|| [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers] || DAO-94042|SFS-102678 ||
-|| [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber] || 4376 ||
+|| *Term* || *Example 1* || *Example 2* ||
+|| [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] ||  Université de Montréal  ||  ||
+|| [http://rs.tdwg.org/dwc/terms/institutionID institutionID] ||  ||  ||
+|| [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || Université de Montréal || Harvard University ||
+|| [http://rs.tdwg.org/dwc/terms/collectionID collectionID] || urn:lsid:biocol.org:col:14437 || urn:lsid:biocol.org:col:15406 ||
+|| [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode] || MT || A ||
+|| [http://rs.tdwg.org/dwc/terms/datasetID datasetID] ||  ||
+|| [http://rs.tdwg.org/dwc/terms/datasetName datasetName] || Vascular plants||  ||
+|| [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber] || MT-168679 || A-huhbarcode-00016549 ||
+|| [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers] || DAO-94042|SFS-102678 ||  ||
+|| [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber] || 4376 || 40 ||
