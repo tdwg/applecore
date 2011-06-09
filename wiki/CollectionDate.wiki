@@ -70,11 +70,11 @@ For two dates
 || eventTime ||  ||  ||  ||  ||  ||  ||
 || startDayOfYear || 182 ||  ||  ||  || 205 ||  ||
 || endDayOfYear || 182 ||  ||  ||  || 206 ||  ||
-|| year || 1991 || 2004 || 1999 ||  ||  ||  ||
-|| month || 7 ||  ||  || 3 ||  ||  ||
+|| year || 1991 || 2004 || 1999 ||  || 1947 || 1991 ||
+|| month || 7 ||  ||  || 3 || 7 ||  ||
 || day || 1 ||  ||  || 12 ||  ||  ||
 
-The eventDate in example 5 and 6 can be written as 1991-05-16/08-07 and 1947-07-24/25 respectively.
+The eventDate in example 5 can be written as 1947-07-24/25.
 
 ----
 
