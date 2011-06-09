@@ -15,43 +15,8 @@ The collection date is the date, date range or dates on which a specimen was col
 
 Example: 15 till 21 VII 1980
 
-== 1 date recorded ==
-
-=== Unaltered ===
-|| date || 15 till 21 VII 1980 ||
-
-=== Altered to non-ISO ===
-|| date || 1980 Jul 15-21 ||
-
-|| date || 1980 Jul 15-21 ||
-|| (verbatim date) || 15 till 21 VII 1980 ||
-
-|| day || 15-21 ||
-|| month || 07 ||
-|| year || 1980 ||
-|| (verbatim date) || 15 till 21 VII 1980 ||
-
-|| start date || 1980-07-15 ||
-|| end date || 1980-07-15 ||
-|| (verbatim date) || 15 till 21 VII 1980 ||
-
-|| start day || 15 ||
-|| start month || 07 ||
-|| start year || 1980 ||
-|| end day || 21 ||
-|| end month || 07 ||
-|| end year || 1980 ||
-|| (verbatim date) || 15 till 21 VII 1980 ||
 
 
-|| endDate ||
-|| year or startYear ||
-|| month or startMonth ||
-|| day or startDay ||
-|| endYear ||
-|| endMonth ||
-|| endYear ||
-|| verbatimDate ||
 
 Provide everything you can.
 
@@ -60,6 +25,7 @@ Format dates according to ISO 8601:2004(E) in eventDate (if you can).
 Put the most original version of the date in verbatimEventDate.
 
 For ranges, do not provide year, month, day.
+
 For two dates
 
 = Examples =
@@ -78,65 +44,3 @@ For two dates
 Example 2: if additional information is available regarding the month (January or March), the terms can be populated as in example 1.
 
 Example 5: the eventDate in example 5 may also be written as 1947-07-24/25.
-
-----
-
-|| *Term* || *Value* ||
-|| verbatimEventDate || 1 juillet 1991 ||
-|| eventDate || 1991-07-01 ||
-|| eventTime ||  ||
-|| startDayOfYear || 182 ||
-|| endDayOfYear || 182 ||
-|| year || 1991 ||
-|| month || 7 ||
-|| day || 1 ||
-
-|| *Term* || *Value* ||
-|| verbatimEventDate || July 24-25, 1947 ||
-|| eventDate || 1947-07-24/1947-07-25 ||
-|| eventTime ||  ||
-|| startDayOfYear || 205 ||
-|| endDayOfYear || 206 ||
-|| year ||  ||
-|| month ||  ||
-|| day ||  ||
-
-|| *Term* || *Value* ||
-|| verbatimEventDate || May 16 and August 7, 1991 ||
-|| eventDate || 1991-05-16/1991-08-07 ||
-|| eventTime ||  ||
-|| startDayOfYear || 136 ||
-|| endDayOfYear || 219 ||
-|| year ||  ||
-|| month ||  ||
-|| day ||  ||
-
-|| *Term* || *Value* ||
-|| verbatimEventDate||3/1/2004 ||
-|| eventDate || 2004 ||
-|| eventTime ||  ||
-|| startDayOfYear ||  ||
-|| endDayOfYear ||  ||
-|| year || 2004 ||
-|| month ||  ||
-|| day ||  ||
-
-|| *Term* || *Value* ||
-|| verbatimEventDate || March 12 ||
-|| eventDate ||  ||
-|| eventTime ||  ||
-|| startDayOfYear ||  ||
-|| endDayOfYear ||  ||
-|| year ||  ||
-|| month || 3 ||
-|| day || 12 ||
-
-|| *Term* || *Value* ||
-|| verbatimEventDate || Early spring 1999 ||
-|| eventDate || 1999 ||
-|| eventTime ||  ||
-|| startDayOfYear ||  ||
-|| endDayOfYear ||  ||
-|| year || 1999 ||
-|| month ||  ||
-|| day ||  ||
