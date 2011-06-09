@@ -13,11 +13,35 @@
 
 The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label. It can be written in various data formats and is recorded in collection databases in numerous ways.
 
-Example: Jul 29 - Aug 2, 1957
+Example: 15 till 21 VII 1980
 
-|| date || Jul 29 - Aug 2, 1957 ||
+== 1 date recorded ==
 
-|| date || 1957 Jul 29 - Aug ||
+=== Unaltered ===
+|| date || 15 till 21 VII 1980 ||
+
+=== Altered to non-ISO ===
+|| date || 1980 Jul 15-21 ||
+
+|| date || 1980 Jul 15-21 ||
+|| (verbatim date) || 15 till 21 VII 1980 ||
+
+|| day || 15-21 ||
+|| month || 07 ||
+|| year || 1980 ||
+|| (verbatim date) || 15 till 21 VII 1980 ||
+
+|| start date || 1980-07-15 ||
+|| end date || 1980-07-15 ||
+|| (verbatim date) || 15 till 21 VII 1980 ||
+
+|| start day || 15 ||
+|| start month || 07 ||
+|| start year || 1980 ||
+|| end day || 21 ||
+|| end month || 07 ||
+|| end year || 1980 ||
+|| (verbatim date) || 15 till 21 VII 1980 ||
 
 
 || endDate ||
@@ -42,7 +66,7 @@ For two dates
 
 || *Term* || *Example 1* || *Example 2* || *Example 3* || *Example 4* || *Example 5* || *Example 6* ||
 || verbatimEventDate || 1 juillet 1991 || 3/1/2004 || Early spring 1999 || March 12 || July 24-25, 1947 || May 16 and August 7, 1991 ||
-|| eventDate || 1991-07-01 || 2004 || 1999 ||  || 1991-05-16/1991-08-07 || 1947-07-24/1947-07-25 ||
+|| eventDate || 1991-07-01 || 2004 || 1999 ||  || 1947-07-24/1947-07-25 || 1991-05-16/1991-08-07 ||
 || eventTime ||  ||  ||  ||  ||  ||  ||
 || startDayOfYear || 182 ||  ||  ||  || 205 || 136 ||
 || endDayOfYear || 182 ||  ||  ||  || 206 || 219 ||
