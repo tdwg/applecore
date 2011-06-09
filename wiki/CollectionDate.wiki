@@ -65,6 +65,7 @@ For two dates
 = Examples =
 
 || *Term* || *Example 1* || *Example 2* || *Example 3* || *Example 4* || *Example 5* || *Example 6* ||
+|| _Date on the label_ || _1 juillet 1991_ || _3/1/2004_ || _Early spring 1999_ || _March 12_ || _July 24-25, 1947_ || _May 16 and August 7, 1991_ ||
 || verbatimEventDate || 1 juillet 1991 || 3/1/2004 || Early spring 1999 || March 12 || July 24-25, 1947 || May 16 and August 7, 1991 ||
 || eventDate || 1991-07-01 || 2004 || 1999 ||  || 1947-07-24/1947-07-25 ||  ||
 || eventTime ||  ||  ||  ||  ||  ||  ||
@@ -74,7 +75,9 @@ For two dates
 || month || 7 ||  ||  || 3 || 7 ||  ||
 || day || 1 ||  ||  || 12 ||  ||  ||
 
-The eventDate in example 5 can be written as 1947-07-24/25.
+Example 2: if additional information is available regarding the month (January or March), the terms can be populated as in example 1.
+
+Example 5: the eventDate in example 5 may also be written as 1947-07-24/25.
 
 ----
 
