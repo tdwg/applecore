@@ -66,10 +66,10 @@ For two dates
 
 || *Term* || *Example 1* || *Example 2* || *Example 3* || *Example 4* || *Example 5* || *Example 6* ||
 || verbatimEventDate || 1 juillet 1991 || 3/1/2004 || Early spring 1999 || March 12 || July 24-25, 1947 || May 16 and August 7, 1991 ||
-|| eventDate || 1991-07-01 || 2004 || 1999 ||  || 1947-07-24/1947-07-25 || 1991-05-16/1991-08-07 ||
+|| eventDate || 1991-07-01 || 2004 || 1999 ||  || 1947-07-24/1947-07-25 ||  ||
 || eventTime ||  ||  ||  ||  ||  ||  ||
-|| startDayOfYear || 182 ||  ||  ||  || 205 || 136 ||
-|| endDayOfYear || 182 ||  ||  ||  || 206 || 219 ||
+|| startDayOfYear || 182 ||  ||  ||  || 205 ||  ||
+|| endDayOfYear || 182 ||  ||  ||  || 206 ||  ||
 || year || 1991 || 2004 || 1999 ||  ||  ||  ||
 || month || 7 ||  ||  || 3 ||  ||  ||
 || day || 1 ||  ||  || 12 ||  ||  ||
