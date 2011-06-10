@@ -1,0 +1,13 @@
+= Introduction =
+
+Apple Core Gold is a standard of excellence assigned to data that were published following the most strict guidelines in Apple Core. It is an indication of the potential readily usefulness and quality of the data.
+
+= Conditions =
+
+To obtain the Apple Core Gold standard, the published data must apply to the following conditions:
+
+|| eventDate || Dates are formatted according to ISO 8601:2004(E) ||
+
+= Recording the Apple Core Gold standard =
+
+<pending>
