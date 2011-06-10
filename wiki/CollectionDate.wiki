@@ -9,24 +9,39 @@
  * [http://rs.tdwg.org/dwc/terms/month month]
  * [http://rs.tdwg.org/dwc/terms/day day]
 
+= Introduction =
+
+The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label. It can be written in various date formats and is recorded in collection databases in numerous ways.
+
+== Single date field ==
+
+||  || *Verbatim* || *Structured* || *Structured ISO 8601:2004(E)* ||
+|| Date || 8 till 15 VII 1980 || 1980 Jul 8-15 || 1980-07-08/15 ||
+
+== Start / end date fields ==
+
+||  || *Structured* || *Structured ISO 8601:2004(E)* ||
+|| Start date || 1980 Jul 8 || 1980-07-08 ||
+|| End date || 1980 Jul 15 || 1980-07-15 ||
+
+== Parsed date fields ==
+
+||  || *Structured* || *Structured ISO 8601:2004(E)* ||
+|| Day || 8-15 || 08/15 ||
+|| Month || VIII || 07 ||
+|| Year || 1980 || 1980 ||
+
 = Recommendations =
 
-The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label. It can be written in various data formats and is recorded in collection databases in numerous ways.
+== Verbatim date ==
 
-Example: 15 till 21 VII 1980
+The verbatim date is the date as written on the specimen label (see the definition for [http://code.google.com/p/applecore/wiki/Glossary#Verbatim verbatim]) and is recorded in a single free-text field. Remarks or notes regarding this date are accepted in this field as long as the original value is included: "3/5/2009 (probably March)" or if the date is illegible: "illisible". If it is unknown if a date field corresponds to the date as written on the label, it should not be considered a verbatim date.
 
+Provide the verbatim date in *_verbatimEventDate_*.
 
+== Structured date ==
 
-
-Provide everything you can.
-
-Format dates according to ISO 8601:2004(E) in eventDate (if you can).
-
-Put the most original version of the date in verbatimEventDate.
-
-For ranges, do not provide year, month, day.
-
-For two dates
+{{{pending}}}
 
 = Examples =
 
