@@ -1,6 +1,6 @@
  * [Introduction]
  * [Glossary]
- * Terms
+ * Sections
   * [TypeAndBasisOfRecord Type and basis of record]
   * [CodesAndNumbers Codes and numbers]
   * [Collectors]
