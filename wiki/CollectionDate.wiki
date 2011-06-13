@@ -17,7 +17,7 @@ The collection date is the date, date range or dates on which a specimen was col
 
 The verbatim date is the collection date as written on the specimen label (see the definition for [http://code.google.com/p/applecore/wiki/Glossary#Verbatim verbatim]) and is recorded in a single free-text field.
 
-It is recommended to always record a verbatim date as it is the most objective way to record the collection date and in some cases even the only way to do so. Alternatively, a verbatim date can be recorded when the [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date Formatted date] cannot unambiguously represent the collection date (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]).
+It is recommended to always record a verbatim date as it is the most objective way to record the collection date and in some cases even the only way to do so. Alternatively, a verbatim date can be recorded when the [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date formatted date] cannot unambiguously represent the collection date (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]).
 
 Provide the verbatim date in *_[http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate]_*. Remarks or notes regarding the collection date are accepted in this term as long as the verbatim date is included as well: "3/5/2009 (probably March)" or if the date is illegible: "illisible". If a database field contains verbatim and non-verbatim dates or if it is unknown whether the field corresponds to the verbatim date, it should _not_ be considered a _verbatimEventDate_.
 
