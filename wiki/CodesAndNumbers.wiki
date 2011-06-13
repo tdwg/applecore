@@ -24,23 +24,23 @@ With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a s
 == Collection code ==
 The collection code is the coden, acronym or name of the herbarium. It is used to identify and reference the herbarium as collection and is often registered with [http://sciweb.nybg.org/science2/IndexHerbariorum.asp Index Herbariorum]). Ideally its coden is unique in the world.
 
-Provide the Index Herbariorum coden of the herbarium in *_collectionCode_*. If the herbarium does not have an IH coden, use the full herbarium name or unregistered acronym instead.
+Provide the Index Herbariorum coden of the herbarium in *_[http://rs.tdwg.org/dwc/terms/collectionCode collectionCode]_*. If the herbarium does not have an IH coden, use the full herbarium name or unregistered acronym instead.
 
-If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/ Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _collectionID_.
+If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/ Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _[http://rs.tdwg.org/dwc/terms/collectionID collectionID]_.
 
 == Specimen number ==
 The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically stamped, sticked, printed or written on to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
 
-Provide the specimen number in *_catalogNumber_*. In combination with the _collectionCode_ it ideally creates a unique identifier for each specimen record in the dataset.
+Provide the specimen number in *_[http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber]_*. In combination with the _collectionCode_ it ideally creates a unique identifier for each specimen record in the dataset.
 
-If specimen numbers are only unique within subcollections of the herbarium, it is useful to prefix to the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be provided in _datasetName_.
+If specimen numbers are only unique within subcollections of the herbarium, it is useful to prefix to the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be provided in _[http://rs.tdwg.org/dwc/terms/datasetName datasetName]_.
 
-Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be provided in _otherCatalogNumbers_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|".
+Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be provided in _[http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers]_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|".
 
 == Collector number ==
 The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting, and typically written on the specimen label. Collector numbers - also called collection numbers - often form chronological series of specimens collected by one or more collectors. Duplicate specimens are typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
 
-Provide the collector number in *_recordNumber_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|".
+Provide the collector number in *_[http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|".
 
 = Examples =
 
