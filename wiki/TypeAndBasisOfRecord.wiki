@@ -7,9 +7,11 @@
 = Recommendations =
 
 For a regular herbarium specimen:
-|| *dcterms:type* || *basisOfRecord* ||
-|| !PhysicalObject || !PreservedSpecimen ||
+|| *Term* || *Value* ||
+|| [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type] || !PhysicalObject ||
+|| [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord] || !PreservedSpecimen ||
 
 For a physical image or drawing of a specimen:
-|| *dcterms:type* || *basisOfRecord* ||
-|| !StillImage || !PreservedSpecimen ||
+|| *Term* || *Value* ||
+|| [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type] || !StillImage ||
+|| [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord] || !PreservedSpecimen ||
