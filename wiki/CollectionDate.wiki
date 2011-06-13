@@ -11,41 +11,38 @@
 
 = Recommendations =
 
-The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label. It can be recorded in collection databases in numerous ways.
+The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label.
 
 == Verbatim date ==
 
-The verbatim date is the collection date as written on the specimen label (see the definition for [http://code.google.com/p/applecore/wiki/Glossary#Verbatim verbatim]) and is recorded in a single free-text field. It is useful as it is the most objective way to record the date and in some cases even the only way to do so.
+The verbatim date is the collection date as written on the specimen label (see the definition for [http://code.google.com/p/applecore/wiki/Glossary#Verbatim verbatim]) and is recorded in a single free-text field.
 
-Provide the verbatim date in *_verbatimEventDate_*. Remarks or notes regarding the collection date are accepted in this term as long as the verbatim date is included as well: "3/5/2009 (probably March)" or if the date is illegible: "illisible". If a database field contains verbatim and non-verbatim dates or if it is unknown whether the field corresponds to the verbatim date, it should _not_ be considered a _verbatimEventDate_.
+It is recommended to always record a verbatim date as it is the most objective way to record the collection date and in some cases even the only way to do so. Alternatively, a verbatim date can be recorded when the [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date Formatted date] cannot unambiguously represent the collection date (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]).
 
-== Structured date ==
+Provide the verbatim date in *_[http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate]_*. Remarks or notes regarding the collection date are accepted in this term as long as the verbatim date is included as well: "3/5/2009 (probably March)" or if the date is illegible: "illisible". If a database field contains verbatim and non-verbatim dates or if it is unknown whether the field corresponds to the verbatim date, it should _not_ be considered a _verbatimEventDate_.
 
-As the verbatim date doesn't readily allows calculation and sorting, most collections (also) record the collection date in a structured format. 
+== Formatted date ==
 
-Collections very often record the collection date in a structured format, even though it might not be available as such on the specimen label. The advantage is that it allows 
+As the verbatim date doesn't readily allows calculation and sorting, most collections (also) record the collection date in a structured format. This can be done in numerous ways:
 
-As the verbatim date doesn't readily allow calculation and sorting, collections very often also record a structured date 
+ * Date = 1980 Jul 8-15
+ * Date = 7/8-15/1980
+ * Date = 8-15/7/1980
+ * Date = 8-15.07.80
+ * Date = 8-15 VII 1980
+ * Date = 1980-07-08/15
+ * Date = 1980-07-08/1980-07-15
+ * Start date = 1980 Jul 8 | End date = 1980 Jul 15
+ * Day = 8-15 | Month = 7 | Year = 1980
+ * Start day = 8 | Start month = 7 | Start year = 1980 | End day = 15 | End month = 7 | End year = 1980
 
-{{{pending}}}
+It is recommended to store any formatted date using the *[http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)]* standard. In ISO 8601 date and time values are organized from the most to the least significant and with a fixed number of digits per value: YYYY-MM-DD. Date ranges are expressed with a forward slash: YYYY-MM-DD/YYYY-MM-DD and partial dates can only be expressed by dropping the least significant values first: YYYY-MM or YYYY, but never MM-DD.  For more information and examples, see http://en.wikipedia.org/wiki/ISO_8601 and http://code.google.com/p/darwincore/wiki/Event.
 
-=== Single date field ===
+If it is necessary to record the collection date in multiple fields (start/end date or day/month/year), try to store the date in a format close to ISO 8601, so it can easily be transformed by concatenation.
 
-||  || *Verbatim* || *Structured* || *ISO 8601:2004(E)* ||
-|| Date || 8 till 15 VII 1980 || 1980 Jul 8-15 || 1980-07-08/15 ||
+Provide the formatted collection date in *_[http://rs.tdwg.org/dwc/terms/eventDate eventDate]_*. It is *highly recommended to use the [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)] standard*, as it allows the date information to be shared unambiguously. Other date formats should only be used if the collection is unable to record or transform the dates to ISO 8601.
 
-== Start / end date fields ==
 
-||  || *Structured* || *ISO 8601:2004(E)* ||
-|| Start date || 1980 Jul 8 || 1980-07-08 ||
-|| End date || 1980 Jul 15 || 1980-07-15 ||
-
-== Parsed date fields ==
-
-||  || *Structured* || *ISO 8601:2004(E)* ||
-|| Day || 8-15 || 08/15 ||
-|| Month || VIII || 07 ||
-|| Year || 1980 || 1980 ||
 
 = Examples =
 
