@@ -9,41 +9,43 @@
  * [http://rs.tdwg.org/dwc/terms/month month]
  * [http://rs.tdwg.org/dwc/terms/day day]
 
-= Introduction =
+= Recommendations =
 
-The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label. It can be written in various date formats and is recorded in collection databases in numerous ways.
+The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label. It can be recorded in collection databases in numerous ways.
 
-== Single date field ==
+== Verbatim date ==
 
-||  || *Verbatim* || *Structured* || *Structured ISO 8601:2004(E)* ||
+The verbatim date is the collection date as written on the specimen label (see the definition for [http://code.google.com/p/applecore/wiki/Glossary#Verbatim verbatim]) and is recorded in a single free-text field. It is useful as it is the most objective way to record the date and in some cases even the only way to do so.
+
+Provide the verbatim date in *_verbatimEventDate_*. Remarks or notes regarding the collection date are accepted in this term as long as the verbatim date is included as well: "3/5/2009 (probably March)" or if the date is illegible: "illisible". If a database field contains verbatim and non-verbatim dates or if it is unknown whether the field corresponds to the verbatim date, it should _not_ be considered a _verbatimEventDate_.
+
+== Structured date ==
+
+As the verbatim date doesn't readily allows calculation and sorting, most collections (also) record the collection date in a structured format. 
+
+Collections very often record the collection date in a structured format, even though it might not be available as such on the specimen label. The advantage is that it allows 
+
+As the verbatim date doesn't readily allow calculation and sorting, collections very often also record a structured date 
+
+{{{pending}}}
+
+=== Single date field ===
+
+||  || *Verbatim* || *Structured* || *ISO 8601:2004(E)* ||
 || Date || 8 till 15 VII 1980 || 1980 Jul 8-15 || 1980-07-08/15 ||
 
 == Start / end date fields ==
 
-||  || *Structured* || *Structured ISO 8601:2004(E)* ||
+||  || *Structured* || *ISO 8601:2004(E)* ||
 || Start date || 1980 Jul 8 || 1980-07-08 ||
 || End date || 1980 Jul 15 || 1980-07-15 ||
 
 == Parsed date fields ==
 
-||  || *Structured* || *Structured ISO 8601:2004(E)* ||
+||  || *Structured* || *ISO 8601:2004(E)* ||
 || Day || 8-15 || 08/15 ||
 || Month || VIII || 07 ||
 || Year || 1980 || 1980 ||
-
-= Recommendations =
-
-== Verbatim date ==
-
-The verbatim date is the collection date as written on the specimen label (see the definition for [http://code.google.com/p/applecore/wiki/Glossary#Verbatim verbatim]) and is recorded in a single free-text field. If a date field contains verbatim and non-verbatim dates or it is unknown whether the field corresponds to a verbatim date, it should not be considered a verbatim date.
-
-Remarks or notes regarding the collection date are accepted in this field as long as the original value is included: "3/5/2009 (probably March)" or if the date is illegible: "illisible". 
-
-Provide the verbatim date in *_verbatimEventDate_*.
-
-== Structured date ==
-
-{{{pending}}}
 
 = Examples =
 
@@ -57,6 +59,14 @@ Provide the verbatim date in *_verbatimEventDate_*.
 || year || 1991 || 2004 || 1999 ||  || 1947 || 1991 ||
 || month || 7 ||  ||  || 3 || 7 ||  ||
 || day || 1 ||  ||  || 12 ||  ||  ||
+
+|| || _Date on the label_ || verbatimEventDate || eventDate || eventTime || startDayOfYear || endDayOfYear || year || month || day ||
+|| Example 1 || _1 juillet 1991_ || 1 juillet 1991 || 1991-07-01 || || 182 || 182 || 1991 || 7 || 1 ||
+|| Example 2 || _3/1/2004_ || 3/1/2004 || 2004 || || || || 2004 || || ||
+|| Example 3 || _Early spring 1999_ || Early spring 1999 || 1999 || || || || 1999 || || ||
+|| Example 4 || _March 12_ || March 12 || || || || || || 3 || 12 ||
+|| Example 5 || _July 24-25, 1947_ || July 24-25, 1947 || 1947-07-24/1947-07-25 || 205 || 206 || || 1947 || 7 || ||
+|| Example 6 || _May 16 and August 7, 1991_ || May 16 and August 7, 1991 || || || || || 1991 || || ||
 
 Example 2: if additional information is available regarding the month (January or March), the terms can be populated as in example 1.
 
