@@ -30,19 +30,31 @@ As the verbatim date doesn't readily allows calculation and sorting, most collec
  * Date = 8-15/7/1980
  * Date = 8-15.07.80
  * Date = 8-15 VII 1980
- * Date = 1980-07-08/15
- * Date = 1980-07-08/1980-07-15
+ * Date = 1980-07-08/15 (recommended)
+ * Date = 1980-07-08/1980-07-15 (recommended)
  * Start date = 1980 Jul 8 | End date = 1980 Jul 15
  * Day = 8-15 | Month = 7 | Year = 1980
  * Start day = 8 | Start month = 7 | Start year = 1980 | End day = 15 | End month = 7 | End year = 1980
 
-It is recommended to store any formatted date using the *[http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)]* standard. In ISO 8601 date and time values are organized from the most to the least significant and with a fixed number of digits per value: YYYY-MM-DD. Date ranges are expressed with a forward slash: YYYY-MM-DD/YYYY-MM-DD and partial dates can only be expressed by dropping the least significant values first: YYYY-MM or YYYY, but never MM-DD.  For more information and examples, see http://en.wikipedia.org/wiki/ISO_8601 and http://code.google.com/p/darwincore/wiki/Event.
+It is recommended to store any formatted date using the *[http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)]* standard. In ISO 8601 date and time values are organized from the most to the least significant and with a fixed number of digits per value: YYYY-MM-DD. Date ranges are expressed with a forward slash: YYYY-MM-DD/YYYY-MM-DD, YYYY-MM-DD/MM-DD or YYYY-MM-DD/DD. Partial dates can only be expressed by dropping the least significant values first: YYYY-MM or YYYY, but never MM-DD.  For more information and examples, see http://en.wikipedia.org/wiki/ISO_8601 and http://code.google.com/p/darwincore/wiki/Event.
 
 If it is necessary to record the collection date in multiple fields (start/end date or day/month/year), try to store the date in a format close to ISO 8601, so it can easily be transformed by concatenation.
 
 Provide the formatted collection date in *_[http://rs.tdwg.org/dwc/terms/eventDate eventDate]_*. It is *highly recommended to use the [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)] standard*, as it allows the date information to be shared unambiguously. Other date formats should only be used if the collection is unable to record or transform the dates to ISO 8601.
 
+Although date ranges can be expressed in _eventDate_, multiple dates cannot. See example 6 in [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples].
 
+== Other date terms ==
+
+In addition to _eventDate_, Darwin Core offers several other date terms which allow (part of) the collection date to be expressed in a more readily useable format (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]). Provide values for this terms if feasible.
+
+Some guidelines:
+ * [http://rs.tdwg.org/dwc/terms/eventTime eventTime]: Useful if the time is recorded, but not the date (otherwise _[http://rs.tdwg.org/dwc/terms/eventDate eventDate]_ can be used as well). Rare for herbarium specimens.
+ * [http://rs.tdwg.org/dwc/terms/startDayOfYear startDayOfYear]: If the (leap)year is unknown, do not use for dates after February 28.
+ * [http://rs.tdwg.org/dwc/terms/endDayOfYear endDayOfYear]: For single dates, provide the same value as in _startDayOfYear_.
+ * [http://rs.tdwg.org/dwc/terms/year year]: 4 digits. Do not use for ranges spanning two different years.
+ * [http://rs.tdwg.org/dwc/terms/month month]: Do not use leading zeros. Do not use for ranges spanning two different months.
+ * [http://rs.tdwg.org/dwc/terms/day day]: Do not use leading zeros. Do not use for ranges.
 
 = Examples =
 
@@ -56,6 +68,7 @@ Provide the formatted collection date in *_[http://rs.tdwg.org/dwc/terms/eventDa
 || [http://rs.tdwg.org/dwc/terms/month month] || 7 ||  ||  || 3 || 7 ||  ||
 || [http://rs.tdwg.org/dwc/terms/day day] || 1 ||  ||  || 12 ||  ||  ||
 
-Example 2: if additional information is available regarding the month (January or March), the terms can be populated as in example 1.
-
-Example 5: the eventDate in example 5 may also be written as 1947-07-24/25.
+ * Example 2: If additional information is available regarding the month (January or March), the terms can be populated as in example 1.
+ * Example 4: The _eventDate_ can only express partial dates from the least to the most significant. In this case the most significant (year) is missing.
+ * Example 5: The _eventDate_ in example 5 may also be written as 1947-07-24/25.
+ * Example 6: Some herbarium specimens have multiple dates (e.g. one for the flower and one for the plant). Multiple dates cannot be expressed in _eventDate_.
