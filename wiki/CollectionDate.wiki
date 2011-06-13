@@ -50,23 +50,14 @@ As the verbatim date doesn't readily allow calculation and sorting, collections 
 = Examples =
 
 || *Term* || *Example 1* || *Example 2* || *Example 3* || *Example 4* || *Example 5* || *Example 6* ||
-|| _Date on the label_ || _1 juillet 1991_ || _3/1/2004_ || _Early spring 1999_ || _March 12_ || _July 24-25, 1947_ || _May 16 and August 7, 1991_ ||
-|| verbatimEventDate || 1 juillet 1991 || 3/1/2004 || Early spring 1999 || March 12 || July 24-25, 1947 || May 16 and August 7, 1991 ||
-|| eventDate || 1991-07-01 || 2004 || 1999 ||  || 1947-07-24/1947-07-25 ||  ||
-|| eventTime ||  ||  ||  ||  ||  ||  ||
-|| startDayOfYear || 182 ||  ||  ||  || 205 ||  ||
-|| endDayOfYear || 182 ||  ||  ||  || 206 ||  ||
-|| year || 1991 || 2004 || 1999 ||  || 1947 || 1991 ||
-|| month || 7 ||  ||  || 3 || 7 ||  ||
-|| day || 1 ||  ||  || 12 ||  ||  ||
-
-|| || _Date on the label_ || verbatimEventDate || eventDate || eventTime || startDayOfYear || endDayOfYear || year || month || day ||
-|| Example 1 || _1 juillet 1991_ || 1 juillet 1991 || 1991-07-01 || || 182 || 182 || 1991 || 7 || 1 ||
-|| Example 2 || _3/1/2004_ || 3/1/2004 || 2004 || || || || 2004 || || ||
-|| Example 3 || _Early spring 1999_ || Early spring 1999 || 1999 || || || || 1999 || || ||
-|| Example 4 || _March 12_ || March 12 || || || || || || 3 || 12 ||
-|| Example 5 || _July 24-25, 1947_ || July 24-25, 1947 || 1947-07-24/1947-07-25 || 205 || 206 || || 1947 || 7 || ||
-|| Example 6 || _May 16 and August 7, 1991_ || May 16 and August 7, 1991 || || || || || 1991 || || ||
+|| [http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate] || 1 juillet 1991 || 3/1/2004 || Early spring 1999 || March 12 || July 24-25, 1947 || May 16 and August 7, 1991 ||
+|| [http://rs.tdwg.org/dwc/terms/eventDate eventDate] || 1991-07-01 || 2004 || 1999 ||  || 1947-07-24/1947-07-25 ||  ||
+|| [http://rs.tdwg.org/dwc/terms/eventTime eventTime] ||  ||  ||  ||  ||  ||  ||
+|| [http://rs.tdwg.org/dwc/terms/startDayOfYear startDayOfYear] || 182 ||  ||  ||  || 205 ||  ||
+|| [http://rs.tdwg.org/dwc/terms/endDayOfYear endDayOfYear] || 182 ||  ||  ||  || 206 ||  ||
+|| [http://rs.tdwg.org/dwc/terms/year year] || 1991 || 2004 || 1999 ||  || 1947 || 1991 ||
+|| [http://rs.tdwg.org/dwc/terms/month month] || 7 ||  ||  || 3 || 7 ||  ||
+|| [http://rs.tdwg.org/dwc/terms/day day] || 1 ||  ||  || 12 ||  ||  ||
 
 Example 2: if additional information is available regarding the month (January or March), the terms can be populated as in example 1.
 
