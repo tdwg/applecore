@@ -69,6 +69,6 @@ Some guidelines:
 || [http://rs.tdwg.org/dwc/terms/day day] || 1 ||  ||  || 12 ||  ||  ||
 
  * Example 2: If additional information is available regarding the month (January or March), the terms can be populated as in example 1.
- * Example 4: The _eventDate_ can only express partial dates from the least to the most significant. In this case the most significant (year) is missing.
- * Example 5: The _eventDate_ in example 5 may also be written as 1947-07-24/25.
+ * Example 4: Partial dates can only be expressed from the least to the most significant in _eventDate_. In this case the most significant (year) is missing.
+ * Example 5: The _eventDate_ may also be written as 1947-07-24/25.
  * Example 6: Some herbarium specimens have multiple dates (e.g. one for the flower and one for the plant). Multiple dates cannot be expressed in _eventDate_.
