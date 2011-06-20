@@ -8,6 +8,6 @@ To obtain the Golden Delicious standard, the published data must apply to the fo
 
 || eventDate || Dates are formatted according to ISO 8601:2004(E) ||
 
-= Recording the Apple Core Gold standard =
+= Recording the Golden Delicious standard =
 
 <pending>
