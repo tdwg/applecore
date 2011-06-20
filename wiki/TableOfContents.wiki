@@ -19,4 +19,4 @@
   * [PropertyRights Property rights]
   * [AssociatedInformation Associated information]
   * [UnpublishedInformation Unpublished information]
- * [AppleCoreGold Apple Core Gold]
+ * [GoldenDelicious Golden Delicious]
