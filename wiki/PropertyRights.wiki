@@ -1,0 +1,11 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/dcterms:rights dcterms:rights]
+ * [http://rs.tdwg.org/dwc/terms/dcterms:rightsHolder dcterms:rightsHolder]
+ * [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode]
+ * [http://rs.tdwg.org/dwc/terms/dcterms:accessRights dcterms:accessRights]
+ * [http://rs.tdwg.org/dwc/terms/dcterms:bibliographicCitation dcterms:bibliographicCitation]
+
+= Recommendations =
+
+= Examples =
