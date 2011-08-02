@@ -1,0 +1,8 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/informationWithheld informationWithheld]
+ * [http://rs.tdwg.org/dwc/terms/dataGeneralizations dataGeneralizations]
+
+= Recommendations =
+
+= Examples =
