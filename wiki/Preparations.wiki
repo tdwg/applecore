@@ -1,0 +1,7 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/preparations preparations]
+
+= Recommendations =
+
+= Examples =
