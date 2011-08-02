@@ -1,0 +1,9 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/verbatimElevation verbatimElevation]
+ * [http://rs.tdwg.org/dwc/terms/minimumElevationInMeters minimumElevationInMeters]
+ * [http://rs.tdwg.org/dwc/terms/maximumElevationInMeters maximumElevationInMeters]
+
+= Recommendations =
+
+= Examples =
