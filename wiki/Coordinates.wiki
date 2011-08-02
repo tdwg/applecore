@@ -1,0 +1,23 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/verbatimLatitude verbatimLatitude]
+ * [http://rs.tdwg.org/dwc/terms/verbatimLongitude verbatimLongitude]
+ * [http://rs.tdwg.org/dwc/terms/verbatimCoordinates verbatimCoordinates]
+ * [http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem verbatimCoordinateSystem]
+ * [http://rs.tdwg.org/dwc/terms/verbatimSRS verbatimSRS]
+
+ * [http://rs.tdwg.org/dwc/terms/decimalLatitude decimalLatitude]
+ * [http://rs.tdwg.org/dwc/terms/decimalLongitude decimalLongitude]
+ * [http://rs.tdwg.org/dwc/terms/geodeticDatum geodeticDatum]
+ * [http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters coordinateUncertaintyInMeters]
+ * [http://rs.tdwg.org/dwc/terms/coordinatePrecision coordinatePrecision]
+
+ * [http://rs.tdwg.org/dwc/terms/georeferencedBy georeferencedBy]
+ * [http://rs.tdwg.org/dwc/terms/georeferenceProtocol georeferenceProtocol]
+ * [http://rs.tdwg.org/dwc/terms/georeferenceSources georeferenceSources]
+ * [http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus georeferenceVerificationStatus]
+ * [http://rs.tdwg.org/dwc/terms/georeferenceRemarks georeferenceRemarks]
+
+= Recommendations =
+
+= Examples =
