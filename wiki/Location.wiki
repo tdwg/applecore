@@ -1,0 +1,18 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/higherGeographyID higherGeographyID]
+ * [http://rs.tdwg.org/dwc/terms/higherGeography higherGeography]
+ * [http://rs.tdwg.org/dwc/terms/continent continent]
+ * [http://rs.tdwg.org/dwc/terms/islandGroup islandGroup]
+ * [http://rs.tdwg.org/dwc/terms/island island]
+ * [http://rs.tdwg.org/dwc/terms/country country]
+ * [http://rs.tdwg.org/dwc/terms/countryCode countryCode]
+ * [http://rs.tdwg.org/dwc/terms/stateProvince stateProvince]
+ * [http://rs.tdwg.org/dwc/terms/county county]
+ * [http://rs.tdwg.org/dwc/terms/municipality municipality]
+ * [http://rs.tdwg.org/dwc/terms/locality locality]
+ * [http://rs.tdwg.org/dwc/terms/verbatimLocality verbatimLocality]
+
+= Recommendations =
+
+= Examples =
