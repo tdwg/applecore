@@ -1,0 +1,8 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/samplingProtocol samplingProtocol]
+ * [http://rs.tdwg.org/dwc/terms/samplingEffort samplingEffort]
+
+= Recommendations =
+
+= Examples =
