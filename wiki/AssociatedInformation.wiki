@@ -1,0 +1,12 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/dynamicProperties dynamicProperties]
+ * [http://rs.tdwg.org/dwc/terms/associatedMedia associatedMedia]
+ * [http://rs.tdwg.org/dwc/terms/associatedReferences associatedReferences]
+ * [http://rs.tdwg.org/dwc/terms/associatedOccurrences associatedOccurrences]
+ * [http://rs.tdwg.org/dwc/terms/associatedSequences associatedSequences]
+ * [http://rs.tdwg.org/dwc/terms/associatedTaxa associatedTaxa]
+
+= Recommendations =
+
+= Examples =
