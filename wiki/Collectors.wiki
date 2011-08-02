@@ -1,6 +1,6 @@
 = Terms =
 
- * [http://rs.tdwg.org/dwc/terms/recordedBy recordedBy
+ * [http://rs.tdwg.org/dwc/terms/recordedBy recordedBy]
 
 = Recommendations =
 
