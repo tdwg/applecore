@@ -1,0 +1,7 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/typeStatus typeStatus]
+
+= Recommendations =
+
+= Examples =
