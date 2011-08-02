@@ -1,0 +1,7 @@
+= Terms =
+
+ * [http://rs.tdwg.org/dwc/terms/recordedBy recordedBy
+
+= Recommendations =
+
+= Examples =
