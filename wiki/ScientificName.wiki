@@ -11,3 +11,14 @@
 = Recommendations =
 
 = Examples =
+
+||  || [http://rs.tdwg.org/dwc/terms/scientificName scientificName] || [http://rs.tdwg.org/dwc/terms/genus genus] || [http://rs.tdwg.org/dwc/terms/subgenus subgenus] || [http://rs.tdwg.org/dwc/terms/infragenericEpithet infragenericEpithet] || [http://rs.tdwg.org/dwc/terms/specificEpithet specificEpithet] || [http://rs.tdwg.org/dwc/terms/infraspecificEpithet infraspecificEpithet] || [http://rs.tdwg.org/dwc/terms/scientificNameAuthorship scientificNameAuthorship] || [http://rs.tdwg.org/dwc/terms/taxonRank taxonRank] ||
+|| *1* || Senecio fuchsii C.C.Gmel. subsp. fuchsii var. expansus (Boiss. & Heldr.) Hayek || Senecio ||  ||  || fuchsii || expansus || (Boiss. & Heldr.) Hayek || variety ||
+|| *2* || Cryptomeria japonica 'Elegans' || Cryptomeria ||  ||  || japonica ||  ||  || cultivar? ||
+|| *3* || Pyrocrataegus ×willei L.L.Daniel || Pyrocrataegus ||  ||  || ×willei ||  || L.L.Daniel || ? ||
+|| *4* || Agrostis stolonifera L. × Polypogon monspeliensis (L.) Desf. || Agrostis ||  ||  || ? ||  ||  || ? ||
+|| *5* || Asplenium rhizophyllum × ruta-muraria || Asplenium ||  ||  ||  ||  ||  || ? ||
+|| *6* || Mentha aquatica L. × M. arvensis L. × M. spicata L. || Mentha ||  ||  ||  ||  ||  || ? ||
+|| *7* || Maxillaria sect. Multiflorae Christenson || Maxillaria ||  || Multiflorae ||  ||  || Christenson || section ||
+|| *8* || Amaranthus subgenus Albersia (Kunth) Grenier & Godron || Amaranthus || Amaranthus subgenus Amaranthus || Amaranthus ||  ||  || (Kunth) Grenier & Godron || subgenus ||
+|| *9* || Amaranthus albus Linnaeus || Amaranthus || Amaranthus subgenus Amaranthus || Amaranthus || albus ||  || Linnaeus || species ||
