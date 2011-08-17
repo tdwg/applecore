@@ -44,14 +44,6 @@ Provide the collector number in *_[http://rs.tdwg.org/dwc/terms/recordNumber rec
 
 = Examples =
 
-|| *Term* || *Example 1* || *Example 2* ||
-|| [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] ||  Université de Montréal  ||  ||
-|| [http://rs.tdwg.org/dwc/terms/institutionID institutionID] ||  ||  ||
-|| [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || Université de Montréal || Harvard University ||
-|| [http://rs.tdwg.org/dwc/terms/collectionID collectionID] || urn:lsid:biocol.org:col:14437 || urn:lsid:biocol.org:col:15406 ||
-|| [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode] || MT || A ||
-|| [http://rs.tdwg.org/dwc/terms/datasetID datasetID] ||  ||
-|| [http://rs.tdwg.org/dwc/terms/datasetName datasetName] || Vascular plants||  ||
-|| [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber] || MT-168679 || A-huhbarcode-00016549 ||
-|| [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers] || DAO-94042|SFS-102678 ||  ||
-|| [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber] || 4376 || 40 ||
+||  || [http://rs.tdwg.org/dwc/terms/ownerInstitutionCode ownerInstitutionCode] || [http://rs.tdwg.org/dwc/terms/institutionID institutionID] || [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode] || [http://rs.tdwg.org/dwc/terms/collectionID collectionID] || [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode] || [http://rs.tdwg.org/dwc/terms/datasetID datasetID] || [http://rs.tdwg.org/dwc/terms/datasetName datasetName] || [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber] || [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers] || [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber] ||
+|| *Example 1* || Université de Montréal ||  || Université de Montréal || urn:lsid:biocol.org:col:14437 || MT ||  || Vascular plants || MT-168679 || DAO-94042|SFS-102678 || 4376 ||
+|| *Example 2* ||  ||  || Harvard University || urn:lsid:biocol.org:col:15406 || A ||  ||  || A-huhbarcode-00016549 ||  || 40 ||
