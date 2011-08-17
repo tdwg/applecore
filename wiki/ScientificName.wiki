@@ -29,8 +29,8 @@
  * Does mean some information will be lost (example).
 
 == Losing information, find examples! ==
- * If you use all the fields, but not scientificName, there are examples where you cannot differentiate between two names: e.g. the same variety with the same author is used in two subspecies and they mean something different.
- * If you use all the fields, including scientificName, there might be an example where the same species and author are used in two different genera (with the same name. diff. authors), and they mean something different.
+ * If you use all the fields, but not scientificName, there are examples where you cannot differentiate between two names: e.g. the same variety with the same author is used in two subspecies and they mean something different: genusA speciesA subspeciesA varietyA varietyauthorA ≠ genusA speciesA subspeciesB varietyA varietyauthorA
+ * If you use all the fields, including scientificName, there might be an example where the same species and author are used in two different genera (with the same name. diff. authors), and they mean something different: genusA genusauthorA speciesA speciesauthorA ≠ genusA genusauthorB speciesA speciesauthorA
 
 == Genus ==
  * Preferably without authorship, but not restricted by the definition.
@@ -45,10 +45,10 @@
 ||  || [http://rs.tdwg.org/dwc/terms/scientificName scientificName] || [http://rs.tdwg.org/dwc/terms/genus genus] || [http://rs.tdwg.org/dwc/terms/subgenus subgenus] || [http://rs.tdwg.org/dwc/terms/infragenericEpithet infragenericEpithet]? || [http://rs.tdwg.org/dwc/terms/specificEpithet specificEpithet] || [http://rs.tdwg.org/dwc/terms/infraspecificEpithet infraspecificEpithet] || [http://rs.tdwg.org/dwc/terms/scientificNameAuthorship scientificNameAuthorship] || [http://rs.tdwg.org/dwc/terms/taxonRank taxonRank] ||
 || *1* || Senecio fuchsii C.C.Gmel. subsp. fuchsii var. expansus (Boiss. & Heldr.) Hayek || Senecio ||  ||  || fuchsii || expansus || (Boiss. & Heldr.) Hayek || variety ||
 || *2* || Cryptomeria japonica 'Elegans' || Cryptomeria ||  ||  || japonica ||  ||  || cultivar ||
-|| *3* || Pyrocrataegus ×willei L.L.Daniel || Pyrocrataegus ||  ||  || ×willei ||  || L.L.Daniel || ? ||
-|| *4* || Agrostis stolonifera L. × Polypogon monspeliensis (L.) Desf. || Agrostis ||  ||  || ? ||  ||  || ? ||
-|| *5* || Asplenium rhizophyllum × ruta-muraria || Asplenium ||  ||  ||  ||  ||  || ? ||
-|| *6* || Mentha aquatica L. × M. arvensis L. × M. spicata L. || Mentha ||  ||  ||  ||  ||  || ? ||
+|| *3* || Pyrocrataegus ×willei L.L.Daniel || Pyrocrataegus ||  ||  || ×willei ||  || L.L.Daniel || nothospecies|species? ||
+|| *4* || Agrostis stolonifera L. × Polypogon monspeliensis (L.) Desf. || Agrostis ||  ||  || ? ||  ||  || hybridFormula? ||
+|| *5* || Asplenium rhizophyllum × ruta-muraria || Asplenium ||  ||  ||  ||  ||  || hybridFormula? ||
+|| *6* || Mentha aquatica L. × M. arvensis L. × M. spicata L. || Mentha ||  ||  ||  ||  ||  || hybridFormula? ||
 || *7* || Maxillaria sect. Multiflorae Christenson || Maxillaria ||  || Multiflorae ||  ||  || Christenson || section ||
 || *8* || Amaranthus subgenus Albersia (Kunth) Grenier & Godron || Amaranthus || Amaranthus subgenus Albersia || Albersia ||  ||  || (Kunth) Grenier & Godron || subgenus ||
 || *9* || Amaranthus albus Linnaeus || Amaranthus || Amaranthus subgenus Albersia || Albersia || albus ||  || Linnaeus || species ||
