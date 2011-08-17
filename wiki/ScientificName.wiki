@@ -22,23 +22,24 @@
 
 == Authorship ==
  * Full author name for the lowest rank.
- * Does mean some information will be lost (example).
+ * Does mean some information will be lost (*example*).
 
 == Infraspecific rank ==
  * Provide name for the lowest rank.
- * Does mean some information will be lost (example).
+ * Does mean some information will be lost (*example*).
 
 == Losing information, find examples! ==
- * If you use all the fields, but not scientificName, there are examples where you cannot differentiate between two names: e.g. the same variety with the same author is used in two subspecies and they mean something different: genusA speciesA subspeciesA varietyA varietyauthorA ≠ genusA speciesA subspeciesB varietyA varietyauthorA
- * If you use all the fields, including scientificName, there might be an example where the same species and author are used in two different genera (with the same name. diff. authors), and they mean something different: genusA genusauthorA speciesA speciesauthorA ≠ genusA genusauthorB speciesA speciesauthorA
+ * If you use all the fields, but not scientificName, there are examples where you cannot differentiate between two names: e.g. the same variety with the same author is used in two subspecies and they mean something different: *genusA speciesA subspeciesA varietyA varietyauthorA ≠ genusA speciesA subspeciesB varietyA varietyauthorA*
+ * If you use all the fields, including scientificName, there might be an example where the same species and author are used in two different genera (with the same name. diff. authors), and they mean something different: *genusA genusauthorA speciesA speciesauthorA ≠ genusA genusauthorB speciesA speciesauthorA*
 
 == Genus ==
- * Preferably without authorship, but not restricted by the definition.
+ * Preferably without authorship, but not restricted by the definition. *Ask TDWG*
 
 == Higher classification ==
  * Stops at rank above scientificName.
  * Only place where you can include sections, series, etc. for a species.
  * Only place where you can include superorder, etc. for a species (but you cannot provide the rank!)
+ * Does not include ranks? *Ask TDWG*
 
 = Examples =
 
