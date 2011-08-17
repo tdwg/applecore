@@ -59,12 +59,12 @@ Some guidelines:
 = Examples =
 
 ||  || [http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate] || [http://rs.tdwg.org/dwc/terms/eventDate eventDate] || [http://rs.tdwg.org/dwc/terms/eventTime eventTime] || [http://rs.tdwg.org/dwc/terms/startDayOfYear startDayOfYear] || [http://rs.tdwg.org/dwc/terms/endDayOfYear endDayOfYear] || [http://rs.tdwg.org/dwc/terms/year year] || [http://rs.tdwg.org/dwc/terms/month month] || [http://rs.tdwg.org/dwc/terms/day day] ||
-|| *Example 1* || 1 juillet 1991 || 1991-07-01 ||  || 182 || 182 || 1991 || 7 || 1 ||
-|| *Example 2* || 3/1/2004 || 2004 ||  ||  ||  || 2004 ||  ||  ||
-|| *Example 3* || Early spring 1999 || 1999 ||  ||  ||  || 1999 ||  ||  ||
-|| *Example 4* || March 12 ||  ||  ||  ||  ||  || 3 || 12 ||
-|| *Example 5* || July 24-25, 1947 || 1947-07-24/1947-07-25 ||  || 205 || 206 || 1947 || 7 ||  ||
-|| *Example 6* || May 16 and August 7, 1991 ||  ||  ||  ||  || 1991 ||  ||  ||
+|| *1* || 1 juillet 1991 || 1991-07-01 ||  || 182 || 182 || 1991 || 7 || 1 ||
+|| *2* || 3/1/2004 || 2004 ||  ||  ||  || 2004 ||  ||  ||
+|| *3* || Early spring 1999 || 1999 ||  ||  ||  || 1999 ||  ||  ||
+|| *4* || March 12 ||  ||  ||  ||  ||  || 3 || 12 ||
+|| *5* || July 24-25, 1947 || 1947-07-24/1947-07-25 ||  || 205 || 206 || 1947 || 7 ||  ||
+|| *6* || May 16 and August 7, 1991 ||  ||  ||  ||  || 1991 ||  ||  ||
 
  * Example 2: If additional information is available regarding the month (January or March), the terms can be populated as in example 1.
  * Example 4: Partial dates can only be expressed from the least to the most significant in _eventDate_. In this case the most significant (year) is missing.
