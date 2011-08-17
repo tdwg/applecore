@@ -28,6 +28,10 @@
  * Provide name for the lowest rank.
  * Does mean some information will be lost (example).
 
+== Losing information, find examples! ==
+ * If you use all the fields, but not scientificName, there are examples where you cannot differentiate between two names: e.g. the same variety with the same author is used in two subspecies and they mean something different.
+ * If you use all the fields, including scientificName, there might be an example where the same species and author are used in two different genera (with the same name. diff. authors), and they mean something different.
+
 == Genus ==
  * Preferably without authorship, but not restricted by the definition.
 
