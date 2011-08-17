@@ -1,3 +1,4 @@
+#labels Draft
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/scientificName scientificName]
@@ -9,6 +10,31 @@
  * [http://rs.tdwg.org/dwc/terms/taxonRank taxonRank]
 
 = Recommendations =
+
+== Scientific name ==
+
+ * Provide as much as you can
+ * If this term is concatenated from different fields, create a name that is nomenclaturally correct.
+ * Include rankmarkers (standardized or long)
+ * Provide full names for the authors (according to a code), avoid author abbreviations.
+ * Provide authorship for zero, one, some or all ranks in the name.
+ * No years
+
+== Authorship ==
+ * Full author name for the lowest rank.
+ * Does mean some information will be lost (example).
+
+== Infraspecific rank ==
+ * Provide name for the lowest rank.
+ * Does mean some information will be lost (example).
+
+== Genus ==
+ * Preferably without authorship, but not restricted by the definition.
+
+== Higher classification ==
+ * Stops at rank above scientificName.
+ * Only place where you can include sections, series, etc. for a species.
+ * Only place where you can include superorder, etc. for a species (but you cannot provide the rank!)
 
 = Examples =
 
