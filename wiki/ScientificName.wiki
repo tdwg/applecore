@@ -46,7 +46,7 @@
 || *1* || Senecio fuchsii C.C.Gmel. subsp. fuchsii var. expansus (Boiss. & Heldr.) Hayek || Senecio ||  ||  || fuchsii || expansus || (Boiss. & Heldr.) Hayek || variety ||
 || *2* || Cryptomeria japonica 'Elegans' || Cryptomeria ||  ||  || japonica ||  ||  || cultivar ||
 || *3* || Pyrocrataegus ×willei L.L.Daniel || Pyrocrataegus ||  ||  || ×willei ||  || L.L.Daniel || nothospecies|species? ||
-|| *4* || Agrostis stolonifera L. × Polypogon monspeliensis (L.) Desf. || Agrostis ||  ||  || ? ||  ||  || hybridFormula? ||
+|| *4* || Agrostis stolonifera L. × Polypogon monspeliensis (L.) Desf. || ? ||  ||  || ? ||  ||  || hybridFormula? ||
 || *5* || Asplenium rhizophyllum × ruta-muraria || Asplenium ||  ||  ||  ||  ||  || hybridFormula? ||
 || *6* || Mentha aquatica L. × M. arvensis L. × M. spicata L. || Mentha ||  ||  ||  ||  ||  || hybridFormula? ||
 || *7* || Maxillaria sect. Multiflorae Christenson || Maxillaria ||  || Multiflorae ||  ||  || Christenson || section ||
