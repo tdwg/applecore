@@ -13,4 +13,4 @@ If habitat is explicitly provided on the label, report this value.  When recordi
 || *Label Data* || *Term: habitat* ||
 || “Habitat: roadside bordering secondary forest.” || “roadside bordering secondary forest” ||
 || “Large tree growing along Power Station Road in primary montane forest.” || “roadside, primary montane forest” ||
-|| “USA. Connecticut. Hamden. West Rock State Park. Seepage dominated by Red Maple, Green Ash, and Northern Spicebush - Skunk-cabbage and Cinnamon fern dominate the herbaceous layer.” || “Red maple / Northern spicebush (Acer rubrum / Lindera benzoin) community (derived; Metzler and Barrett 2006, The Vegetation of Connecticut)” ||
+|| “USA. Connecticut. Hamden. West Rock State Park. Seepage dominated by Red Maple, Green Ash, and Northern Spicebush - Skunk-cabbage and Cinnamon fern dominate the herbaceous layer.” || “Red maple / Northern spicebush (Acer rubrum / Lindera benzoin) community (Metzler and Barrett 2006, The Vegetation of Connecticut; derived)” ||
