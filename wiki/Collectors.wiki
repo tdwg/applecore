@@ -37,6 +37,11 @@ Last name, First names, title.
 
 Last name1, First names1, title1; Last name2, First names2, title2
 
+ * Where a team name has been designated and no names are available, use the team name.
+
+|| FloraQuebeca ||
+|| Hay, Stuart G.; FloraQuebeca ||
+
 *More examples needed*
 
 = Examples =
