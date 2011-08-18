@@ -47,6 +47,10 @@
  * Only place where you can include superorder, etc. for a species (but you cannot provide the rank!)
  * Does not include ranks? *Ask TDWG*
 
+== Hybrids ==
+ * Use hybrid rank. *Ask TDWG*
+ * Use multiplication sign. *Check if other things are accepted by ICBN* 
+
 = Examples =
 
 ||  || [http://rs.tdwg.org/dwc/terms/scientificName scientificName] || [http://rs.tdwg.org/dwc/terms/genus genus] || [http://rs.tdwg.org/dwc/terms/subgenus subgenus] || [http://rs.tdwg.org/dwc/terms/infragenericEpithet infragenericEpithet]? || [http://rs.tdwg.org/dwc/terms/specificEpithet specificEpithet] || [http://rs.tdwg.org/dwc/terms/infraspecificEpithet infraspecificEpithet] || [http://rs.tdwg.org/dwc/terms/scientificNameAuthorship scientificNameAuthorship] || [http://rs.tdwg.org/dwc/terms/taxonRank taxonRank] ||
