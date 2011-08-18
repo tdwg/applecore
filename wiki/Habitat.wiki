@@ -6,7 +6,7 @@
 
 The habitat is the ecological or environmental area in which the specimen was collected and may  be explicitly provided on the label.
 
-If habitat is explicitly provided on the label, report this value.  If a habitat is not provided on the label and is derived post-facto from the locality description, it is recommended to report habitat according to a published source and cite the source in parentheses followed by a semicolon and the word “derived”.
+If habitat is provided on the label, report this value.  If a habitat is not provided on the label and is derived post-facto from the locality description, it is recommended to report habitat according to a published source and cite the source in parentheses followed by a semicolon and the word “derived”.
 
 = Examples =
 
