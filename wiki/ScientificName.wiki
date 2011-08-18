@@ -29,6 +29,7 @@
 == Authorship ==
  * Full author name for the lowest rank.
  * Does mean some information will be lost (*example*).
+ * Use: "Standard form (IPNI)": A.Cunn, L., *more examples, link*
 
 == Infraspecific rank ==
  * Provide name for the lowest rank.
