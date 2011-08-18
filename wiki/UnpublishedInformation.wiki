@@ -17,4 +17,4 @@ dataGeneralizations is for describing actions taken to make the shared data less
 || ask about tissue samples ||
 
 || *dataGeneralizations* ||
-|| Coordinates generalized from original GPS coordinates to the nearest half degree grid cell. ||
+|| coordinates generalized from original GPS coordinates to the nearest half degree grid cell ||
