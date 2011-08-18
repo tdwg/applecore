@@ -38,9 +38,9 @@ If specimen numbers are only unique within subcollections of the herbarium, it i
 Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be provided in _[http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers]_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|".
 
 == Collector number ==
-The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting, and typically written on the specimen label. Collector numbers - also called collection numbers - often form chronological series of specimens collected by one or more collectors. Duplicate specimens are typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
+The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting, and typically written on the specimen label. Collector numbers - also called collection numbers - often form chronological series of specimens collected by one or more collectors. Duplicate specimens typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
 
-Provide the collector number in *_[http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|".
+Provide the collector number in *_[http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|" or "; ".
 
 = Examples =
 
