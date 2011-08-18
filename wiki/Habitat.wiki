@@ -6,11 +6,12 @@
 
 The habitat is the ecological or environmental area in which the specimen was collected, and may  be explicitly provided on the label.
 
-If habitat is explicitly provided on the label, report this value.  When recording habitat in the field, it is recommended to report according to a published source, citing the source in parentheses.  If a habitat is not provided on the label and is derived post-facto from the locality description, it is recommended to report habitat according to a published source and cite the source in parentheses followed by a semicolon and the word “derived”.
+If habitat is explicitly provided on the label, report this value.  When recording habitat prior to label preparation, it is recommended to report according to a published source, citing the source in parentheses.  If a habitat is not provided on the label and is derived post-facto from the locality description, it is recommended to report habitat according to a published source and cite the source in parentheses followed by a semicolon and the word “derived”.
 
 = Examples =
 
 || *Label Data* || *Term: habitat* ||
 || “Habitat: roadside bordering secondary forest.” || “roadside bordering secondary forest” ||
-|| “Large tree growing along Power Station Road in primary montane forest.” || “roadside, primary montane forest” ||
+|| “Borneo. Malaysia. Sabah. Ranau District. Bukit Ular Trail, ca. 100 meters from northern terminus. Large tree growing on edge of trail in primary montane forest.” || “primary montane forest” ||
+|| “USA. Connecticut. New Haven. West Rock Ridge State Park. Growing in thin soil on edges of exposed outcrop.  Eastern redcedar / Poverty grass (Juniperus virginiana / Danthonia spicata) community (Metzler and Barrett 2006, The Vegetation of Connecticut).” || “Eastern redcedar / Poverty grass (Juniperus virginiana / Danthonia spicata) community (Metzler and Barrett 2006, The Vegetation of Connecticut).” ||
 || “USA. Connecticut. Hamden. West Rock State Park. Seepage dominated by Red Maple, Green Ash, and Northern Spicebush - Skunk-cabbage and Cinnamon fern dominate the herbaceous layer.” || “Red maple / Northern spicebush (Acer rubrum / Lindera benzoin) community (Metzler and Barrett 2006, The Vegetation of Connecticut; derived)” ||
