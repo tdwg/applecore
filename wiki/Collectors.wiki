@@ -1,7 +1,36 @@
+#labels Draft
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/recordedBy recordedBy]
 
 = Recommendations =
+
+== How to write a collector name ==
+
+Recommended to use the [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
+
+=== Full name ===
+
+Most recommended. *Need more examples needed.*
+
+Last name, First names, title.
+
+|| Macklin, James Alexander ||
+|| Macklin, James A. ||
+|| Macklin, J.A. ||
+
+=== Standard/label name ===
+
+|| J. A. Macklin ||
+|| C. Linnaeus ||
+
+== How to write teams ==
+
+ * Separate with "|" or "; ".
+ * Avoid "&" for separating the last author.
+
+Last name1, First names1, title1; Last name2, First names2, title2
+
+*More examples needed*
 
 = Examples =
