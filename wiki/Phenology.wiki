@@ -12,8 +12,8 @@
 = Examples =
 
 || *MT vocabulary* || *short list* || *Plant ontology consortium terms* ||
-|| seedling || vegetative || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007134 PO:0007134:a vegetative growth] ||
-|| vegetative || vegetative || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007134 PO:0007134:a vegetative growth] ||
+|| seedling || vegetative || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007134 PO:0007134:vegetative growth] ||
+|| vegetative || vegetative || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007134 PO:0007134:vegetative growth] ||
 || inflorescence || flowering || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007047 PO:0007047:inflorescence visible] || 
 || flower bud/sori || flowering || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007016 PO:0007016:flowering] ||
 || anthesis/sporangia || flowering || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007016 PO:0007016:flowering] ||
