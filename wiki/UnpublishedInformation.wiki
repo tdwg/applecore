@@ -11,5 +11,10 @@ dataGeneralizations is for describing actions taken to make the shared data less
 
 = Examples =
 
-|| || ||
-|| || ||
+|| *informationWithheld* ||
+|| location information not given for endangered species ||
+|| collector identities withheld ||
+|| ask about tissue samples ||
+
+|| *dataGeneralizations* ||
+|| ||
