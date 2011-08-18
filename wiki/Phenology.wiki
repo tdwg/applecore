@@ -20,3 +20,8 @@
 || fleur à fruit ||  ||
 || pleine fructification ||  ||
 || après fructification ||  ||
+
+|| *reproductiveCondition* || definition || Plant Ontology Consortium terms || Plant Ontology URL ||
+|| vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present. || PO:0007134 : A vegetative growth || http://www.plantontology.org/amigo/go.cgi?view=details&search_constraint=terms&depth=0&query=PO:0007134&session_id=8853b1313685810&show_associations=list ||
+|| flowering || The stage at which flower buds are present or any flower(s) on the plant are open. || PO:0007047 : 3 inflorescence visible AND/OR PO:0007016 : 4 flowering || http://www.plantontology.org/amigo/go.cgi?view=details&search_constraint=terms&depth=0&query=PO:0007047&session_id=1835b1313686106 AND http://www.plantontology.org/amigo/go.cgi?view=details&search_constraint=terms&depth=0&query=PO:0007016&session_id=2693b1313686581 ||
+|| fruiting || Formation of the seed-bearing structure after flowering or maturation of the fruit. || PO:0007042 : 5 fruit formation AND/OR PO:0007010 : 6 ripening || http://www.plantontology.org/amigo/go.cgi?view=details&search_constraint=terms&depth=0&query=PO:0007042&session_id=1809b1313686210 AND http://www.plantontology.org/amigo/go.cgi?view=details&search_constraint=terms&depth=0&query=PO:0007010&session_id=9418b1313686606 ||
