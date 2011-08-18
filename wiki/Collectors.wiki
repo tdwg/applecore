@@ -21,6 +21,7 @@ Last name, First names, title.
 || Macklin, James Alexander ||
 || Macklin, James A. ||
 || Macklin, J.A. ||
+|| Macklin ||
 || M., J.A. ||
 || M. ||
 
