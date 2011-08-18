@@ -32,7 +32,7 @@ Last name, First names, title.
 
 == How to write teams ==
 
- * Write the primary collector first
+ * The primary collector, especially one who applies a personal identifier (recordNumber), should be listed first.
  * Separate with "|" or "; ".
  * Avoid "&" for separating the last author.
 
