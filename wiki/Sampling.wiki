@@ -1,3 +1,4 @@
+#labels draft
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/samplingProtocol samplingProtocol]
@@ -5,7 +6,7 @@
 
 = Recommendations =
 
-samplingProtocol is the name of, reference to, or description of the method or protocol used during an Event.
+samplingProtocol is the name of, reference to, or description of the method or protocol used during an Event. Recommended to use a source and controlled vocabulary
 
 samplingEffort is the amount of effort expended during an Event.
 
