@@ -13,7 +13,6 @@
   * [Elevation Elevation]
   * [Identification]
   * [ScientificName Scientific name]
-  * [HigherClassification Higher classification]
   * [Preparations]
   * [TypeStatus Type status]
   * [PropertyRights Property rights]
