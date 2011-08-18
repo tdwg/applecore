@@ -27,8 +27,7 @@
  * No years
 
 == Authorship ==
- * Full author name for the lowest rank.
- * Does mean some information will be lost (*example*).
+ * Full author name for the lowest rank. J.A. Macklin.
  * If you use abbreviations, use this controlled vocabulary "Standard form" (IPNI): A.Cunn, L., *more examples, link*
 
 == Infraspecific rank ==
