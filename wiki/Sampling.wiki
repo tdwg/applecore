@@ -14,3 +14,4 @@ If values are not provided for these terms...
 = Examples =
 
 || *samplingProtocol* || *samplingEffort* ||
+|| Systematic random sample as per Measuring and monitoring plant populations. National Applied Resource Sciences Center, Bureau of Land Management, Denver, Colorado, USA. 477 p. || sampled every 10th plant in population ||
