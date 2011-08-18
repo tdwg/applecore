@@ -32,6 +32,7 @@ Last name, First names, title.
 
 == How to write teams ==
 
+ * Write the primary collector first
  * Separate with "|" or "; ".
  * Avoid "&" for separating the last author.
 
