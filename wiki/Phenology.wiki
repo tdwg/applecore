@@ -11,12 +11,12 @@
 
 = Examples =
 
-|| plantule ||
-|| végétatif ||
-|| inflorescence ||
-|| bouton floral/sores ||
-|| anthèse/sporange ||
-|| pleine floraison/sporulation ||
-|| fleur à fruit ||
-|| pleine fructification ||
-|| après fructification ||
+|| plantule ||  ||
+|| végétatif ||  ||
+|| inflorescence ||  ||
+|| bouton floral/sores ||  ||
+|| anthèse/sporange ||  ||
+|| pleine floraison/sporulation ||  ||
+|| fleur à fruit ||  ||
+|| pleine fructification ||  ||
+|| après fructification ||  ||
