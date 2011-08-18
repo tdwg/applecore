@@ -1,3 +1,4 @@
+#labels draft
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/reproductiveCondition reproductiveCondition]
@@ -5,3 +6,13 @@
 = Recommendations =
 
 = Examples =
+
+|| plantule ||
+|| végétatif ||
+|| inflorescence ||
+|| bouton floral/sores ||
+|| anthèse/sporange ||
+|| pleine floraison/sporulation ||
+|| fleur à fruit ||
+|| pleine fructification ||
+|| après fructification ||
