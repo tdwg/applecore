@@ -5,6 +5,10 @@
 
 = Recommendations =
 
+ * Best practice: use this controlled vocabulary *link to standard*
+ * Use your controlled vocabulary
+ * Use verbatim
+
 = Examples =
 
 || plantule ||
