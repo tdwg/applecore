@@ -5,4 +5,12 @@
 
 = Recommendations =
 
+samplingProtocol is the name of, reference to, or description of the method or protocol used during an Event.
+
+samplingEffort is the amount of effort expended during an Event.
+
+If values are not provided for these terms...
+
 = Examples =
+
+|| *samplingProtocol* || *samplingEffort* ||
