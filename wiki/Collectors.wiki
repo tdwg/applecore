@@ -9,17 +9,22 @@
 
 Recommended to use the [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
 
-=== Full name ===
+=== Full name (HUH) ===
 
-Most recommended. *Need more examples needed.*
+ * Most recommended.
+ * Provide as much detail as possible (do not shortform)
+
+*More examples needed.*
 
 Last name, First names, title.
 
 || Macklin, James Alexander ||
 || Macklin, James A. ||
 || Macklin, J.A. ||
+|| M., J.A. ||
+|| M. ||
 
-=== Standard/label name ===
+=== Standard/label name (HUH) ===
 
 || J. A. Macklin ||
 || C. Linnaeus ||
