@@ -13,4 +13,6 @@ associatedOccurrences can also be expressed in this extension: http://rs.gbif.or
 
 measurements (dynamicProperties) can also be expressed in this extension: http://rs.gbif.org/extension/dwc/measurements_or_facts.xml
 
+Image url in associatedMedia
+
 = Examples =
