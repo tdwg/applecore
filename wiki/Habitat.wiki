@@ -14,6 +14,14 @@ If habitat information is standardized in any form it is recommended to report h
  * verbatimLocality and habitat can overlap
  * preferred to use verbatim values, but controlled vocabulary can be used. *!NatureServe example*
 
+== Remarks ==
+
+If you do not have separate habitat field, put everything in occurrenceRemarks
+
+- occurrenceRemarks: specimen notes [specimen remarks]. Also garbage field.
+- eventRemarks: it was a rainy day (very often in occurrenceRemarks)
+- locationRemarks: very often in occurrenceRemarks
+
 = Examples =
 
 ||  || *Label Data* || [http://rs.tdwg.org/dwc/terms/habitat habitat] || [http://rs.tdwg.org/dwc/terms/verbatimLocality verbatimLocality] ||
