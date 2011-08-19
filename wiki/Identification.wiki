@@ -27,6 +27,8 @@
 
 Controlled vocabulary. *reference*
 
+The terms are accepted in the scientificName.
+
 || abbreviation || latin || english || definition ||
 || cf. || Compare || cf. or cfr. (confer) = compare. implies that the specimen does not exactly match the species but should be compared with it. ||
 || aff. || Affinity || aff. (affinis) = related to (or bordering). implies that the specimen does not exactly match the species but is related to it. ||
