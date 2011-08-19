@@ -10,6 +10,8 @@
 
 = Recommendations =
 
+Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
+
 == Identification order ==
 
  * Add identificationOrder to Darwin Core: 1 is first identification (collector), N is latest identification.
