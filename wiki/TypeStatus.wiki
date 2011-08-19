@@ -11,7 +11,7 @@
 
  # controlled vocabulary
  # typified scientific name -> *any other field we can use* [http://rs.tdwg.org/dwc/terms/typeStatus originalNameUsage]?
- # publication -> *any other field we can use*
+ # publication -> *any other field we can use?*
 
 == Extension ==
 
@@ -20,6 +20,10 @@ Linked to a determination
  * typeStatus = controlled vocabulary
  * typified scientific name = scientific name = basionym
  * publication = namePublishedIn
+
+== Controlled vocabulary ==
+
+Create controlled vocabulary for types
 
 = Examples =
 
