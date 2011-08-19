@@ -46,4 +46,27 @@ The terms are accepted in the scientificName.
 || not as ||  ||  ||
 || stet! ||  || I agree || Does this belong in this list? ||
 
+== identificationRemarks ==
+
+ * Should apply to that identification only.
+ * Not structured = verbatim.
+ * Any interpretation of that field in [square brackets].
+
+== identificationReferences ==
+
+ * Flora used for identification
+ * Reference is unstructured.
+ * Different references separated by "|" or "; "
+ * Any interpretation of that field in [square brackets].
+
+== nameAccordingTo ==
+
+ * Reference for this name
+
+== previousIdentifications ==
+
+ * Provide identifications in order: oldest to newest
+ * Different identifications separated by "|" or "; "
+ * Try to order the fields in a consistent way, e.g. scientific name; person; date; remarks. Use a different delimiter for the fields and the identifications
+
 = Examples =
