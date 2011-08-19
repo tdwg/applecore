@@ -10,7 +10,7 @@
  * Use verbatim
  * Multiple values allowed: "flowering; fruiting"
 
-= Examples =
+= Examples: Angiosperms =
 
 || *Short list* || *Definition* || *MT vocabulary* || *Plant ontology consortium terms* ||
 || vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present. || seedling || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007134 PO:0007134:vegetative growth] ||
