@@ -27,6 +27,8 @@ Linked to a determination
 
 = Examples =
 
+Give example for core only and extension
+
  # known species name
  # new species name = basionym => specimen becomes a holotype for that name
  # new name combination (new genus) = new combination => specimen becomes a type for that name
