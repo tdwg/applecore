@@ -40,7 +40,8 @@
 
 == Country and country codes ==
 
- # Use this controlled vocabulary: *link* (English) or country codes
+ # Use this controlled vocabulary: *link* (English)
+ # Country codes
  # Use your internal controlled vocabulary (own language)
  # Use verbatim
 
