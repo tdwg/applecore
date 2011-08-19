@@ -4,4 +4,13 @@
 
 = Recommendations =
 
+== typeStatus ==
+
+The following list could be repeated according to the definition, but this is very rare:
+
+ # controlled vocabulary
+ # typified scientific name -> any other field we can use
+ # publication -> any other field we can use
+
+
 = Examples =
