@@ -5,13 +5,28 @@
 
 = Recommendations =
 
-== typeStatus ==
+== Core only ==
 
-The following list could be repeated according to the definition, but this is very rare:
+3 values in typeStatus, separated by "|" or "; "
 
  # controlled vocabulary
- # typified scientific name -> any other field we can use
- # publication -> any other field we can use
+ # typified scientific name -> *any other field we can use* [http://rs.tdwg.org/dwc/terms/typeStatus originalNameUsage]?
+ # publication -> *any other field we can use*
 
+== Extension ==
+
+Linked to a determination
+
+ * typeStatus = controlled vocabulary
+ * typified scientific name = scientific name = basionym
+ * publication = namePublishedIn
 
 = Examples =
+
+ # known species name
+ # new species name = basionym => specimen becomes a holotype for that name
+ # new name combination (new genus) = new combination => specimen becomes a type for that name
+
+ # known species name
+ # holotype
+ # syntype
