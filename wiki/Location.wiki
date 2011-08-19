@@ -38,15 +38,11 @@
 
  # Use this controlled vocabulary: *link*
 
-== Country ==
+== Country and country codes ==
 
- # Use this controlled vocabulary: *link* (English)
+ # Use this controlled vocabulary: *link* (English) or country codes
  # Use your internal controlled vocabulary (own language)
  # Use verbatim
-
-== Country code ==
-
- * Provide if you can?
 
 == State/Province, County, Municipality ==
 
