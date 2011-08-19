@@ -34,6 +34,26 @@
  * If you have non-translated higher geography
  * If you have more levels than DwC provides
 
+== Continent ==
+
+ # Use this controlled vocabulary: *link*
+
+== Country ==
+
+ # Use this controlled vocabulary: *link*
+ # Use your internal controlled vocabulary
+ # Use verbatim
+
+== Country code ==
+
+ * Provide if you can?
+
+== State/Province, County, Municipality ==
+
+ # Use this controlled vocabulary: *link*
+ # Use your internal controlled vocabulary
+ # Use verbatim
+
 = Examples =
 
 || Example || verbatimLocality || locality || country || stateProvince ||
