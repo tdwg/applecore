@@ -25,21 +25,21 @@
 
 == identificationQualifier ==
 
-Controlled vocabulary. *reference*
+Controlled vocabulary. *reference handbook*
 
 The terms are accepted in the scientificName.
 
 || abbreviation || latin || english || definition ||
-|| cf. ||  || Compare || cf. or cfr. (confer) = compare. implies that the specimen does not exactly match the species but should be compared with it. ||
-|| aff. ||  || Affinity || aff. (affinis) = related to (or bordering). implies that the specimen does not exactly match the species but is related to it. ||
-|| ? ||  || Unknown ||
-|| sensu stricto ||  || Strict sense ||
-|| sensu lato ||  || Broad sense ||
+|| cf. ||  || compare || cf. or cfr. (confer) = compare. implies that the specimen does not exactly match the species but should be compared with it. ||
+|| aff. ||  || affinity || aff. (affinis) = related to (or bordering). implies that the specimen does not exactly match the species but is related to it. ||
+|| ? ||  || unknown ||
+|| sensu stricto ||  || strict sense ||
+|| sensu lato ||  || broad sense ||
 || nom. nud. ||  ||  ||
 || ined. ||  ||  ||
 || forsan ||  ||  ||
 || haud. ||  ||  ||
 || not as ||  ||  ||
-|| stet! ||  || I agree ||
+|| stet! ||  || I agree || Does this belong in this list? ||
 
 = Examples =
