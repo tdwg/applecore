@@ -12,7 +12,31 @@
 
 == Identification order ==
 
- * Add identificationOrder to DarwinCore: 1 is first identification (collector), N is latest identification.
+ * Add identificationOrder to Darwin Core: 1 is first identification (collector), N is latest identification.
  * Provide the most up to date name in the core: this is the most recent identification or the filed-as name, even if you have an identification extension!
+
+== identifiedBy ==
+
+= same rules as for collector
+
+== dateIdentified ==
+
+= same rules as for eventDate (could be verbatim)
+
+== identificationQualifier ==
+
+Controlled vocabulary. *reference*
+
+|| cf. || Compare || cf. or cfr. (confer) = compare. implies that the specimen does not exactly match the species but should be compared with it. ||
+|| aff. || Affinity || aff. (affinis) = related to (or bordering). implies that the specimen does not exactly match the species but is related to it. ||
+|| ? || Unknown ||
+|| sensu stricto || Strict sense ||
+|| sensu lato || Broad sense ||
+|| nom. nud. ||  ||
+|| ined. ||  ||
+|| forsan ||  ||
+|| haud. ||  ||
+|| not as ||  ||
+|| stet! || I agree ||
 
 = Examples =
