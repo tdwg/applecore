@@ -15,6 +15,10 @@
  * Add identificationOrder to Darwin Core: 1 is first identification (collector), N is latest identification.
  * Provide the most up to date name in the core: this is the most recent identification or the filed-as name, even if you have an identification extension!
 
+== Basionym ==
+
+Provide in originalNameUsage. In the core. *Also in the identification extension?*
+
 == identifiedBy ==
 
 = same rules as for collector
