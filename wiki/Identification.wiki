@@ -1,3 +1,4 @@
+#labels draft
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/identifiedBy identifiedBy]
@@ -8,5 +9,10 @@
  * [http://rs.tdwg.org/dwc/terms/previousIdentifications previousIdentifications]
 
 = Recommendations =
+
+== Identification order ==
+
+ * Add identificationOrder to DarwinCore: 1 is first identification (collector), N is latest identification.
+ * Provide the most up to date name in the core: this is the most recent identification or the filed-as name, even if you have an identification extension!
 
 = Examples =
