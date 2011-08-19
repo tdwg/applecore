@@ -65,6 +65,14 @@ The terms are accepted in the scientificName.
 
  * Reference for this name
 
+== vernacularName ==
+
+Problematic, only one name can be shared + no language.
+
+== taxonRemarks, taxonomicStatus, nomenclaturalStatus ==
+
+Maybe useful for types?
+
 == previousIdentifications ==
 
  * Provide identifications in order: oldest to newest
