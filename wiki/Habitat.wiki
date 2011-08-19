@@ -16,7 +16,7 @@ If habitat information is standardized in any form it is recommended to report h
 
 == Remarks ==
 
-If you do not have separate habitat field, put everything in occurrenceRemarks
+If you do not have separate habitat field, put everything in occurrenceRemarks = remarks or notes about the specimen
 
  * occurrenceRemarks: specimen notes [specimen remarks] square brackets. Also garbage field.
  * eventRemarks: it was a rainy day (very often in occurrenceRemarks)
