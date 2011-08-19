@@ -9,4 +9,8 @@
 
 = Recommendations =
 
+associatedOccurrences can also be expressed in this extension: http://rs.gbif.org/extension/dwc/resource_relation.xml
+
+measurements (dynamicProperties) can also be expressed in this extension: http://rs.gbif.org/extension/dwc/measurements_or_facts.xml
+
 = Examples =
