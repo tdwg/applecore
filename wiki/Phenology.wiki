@@ -22,3 +22,16 @@
 || fruiting || Formation of the seed-bearing structure after flowering or maturation of the fruit. || fruit formation || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007042 PO:0007042:fruit formation] ||
 || fruiting || Formation of the seed-bearing structure after flowering or maturation of the fruit. || full fruiting || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007010 PO:0007010:ripening] ||
 || fruiting || Formation of the seed-bearing structure after flowering or maturation of the fruit. || seed dispersal ||  ||
+
+Ferns and Allies:
+* vegetative
+* Sori/Strobilus
+* Sporangiate
+* Sporulating
+
+Gymnosperms/Conifers
+* Vegetative
+* Pollenating (pollen bearing)
+* Pollen releasing
+* Ovulate Cone/Ovule, 1st year
+* Seeding Cone, 2nd year+
