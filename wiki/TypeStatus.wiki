@@ -23,7 +23,7 @@ Linked to a determination
 
 == Controlled vocabulary ==
 
-Create controlled vocabulary for types
+*Create controlled vocabulary for types*
 
 = Examples =
 
