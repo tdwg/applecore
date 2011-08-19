@@ -40,8 +40,8 @@
 
 == Country ==
 
- # Use this controlled vocabulary: *link*
- # Use your internal controlled vocabulary
+ # Use this controlled vocabulary: *link* (English)
+ # Use your internal controlled vocabulary (own language)
  # Use verbatim
 
 == Country code ==
@@ -50,8 +50,8 @@
 
 == State/Province, County, Municipality ==
 
- # Use this controlled vocabulary: *link*
- # Use your internal controlled vocabulary
+ # Use this controlled vocabulary: *link* (English)
+ # Use your internal controlled vocabulary (own language)
  # Use verbatim
 
 = Examples =
