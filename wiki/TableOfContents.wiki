@@ -1,7 +1,7 @@
  * [Introduction]
  * [Glossary]
  * [ListOfTerms]
- * Recommendations
+ * Guidelines
   * [TypeAndBasisOfRecord Type and basis of record]
   * [CodesAndNumbers Codes and numbers]
   * [Collectors]
