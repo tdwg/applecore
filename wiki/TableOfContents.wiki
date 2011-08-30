@@ -1,5 +1,6 @@
  * [Introduction]
  * [Glossary]
+ * [ListOfTerms]
  * Recommendations
   * [TypeAndBasisOfRecord Type and basis of record]
   * [CodesAndNumbers Codes and numbers]
