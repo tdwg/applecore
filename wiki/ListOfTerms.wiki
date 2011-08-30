@@ -1,1 +1,1 @@
-<wiki:gadget url="http://applecore.googlecode.com/svn/trunk/gadgets/gadgets.xml" height="300" width="500" border="1" />
+<wiki:gadget url="http://applecore.googlecode.com/svn/trunk/gadgets/gadgets.xml" height="500" width="1000" border="1" />
