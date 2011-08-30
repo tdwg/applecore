@@ -35,6 +35,7 @@ Last name, First names, title.
  * The primary collector, especially one who applies a personal identifier (recordNumber), should be listed first.
  * Separate with "|" or "; ".
  * Avoid "&" for separating the last author.
+ * Mention that you can concatenate collector fields.
 
 Last name1, First names1, title1; Last name2, First names2, title2
 
