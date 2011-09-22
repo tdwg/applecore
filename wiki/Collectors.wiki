@@ -7,23 +7,25 @@
 
 == How to express a collector name ==
 
-Recommended to use the Botany Collectors database:[http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
+Recommended to use the Harvard Index of Botanists database: [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
 
 === Full name (HUH) ===
 
  * Most recommended.
  * Provide as much detail as possible (do not shortform)
 
-*More examples needed.*
-
-Last name, First names, title.
+Last name, first names, title.
 
 || Macklin, James Alexander ||
 || Macklin, James A. ||
 || Macklin, J.A. ||
-|| Macklin ||
-|| M., J.A. ||
-|| M. ||
+|| Macklin, J. ||
+
+|| Nash, Thomas H., III ||
+|| Nash, Thomas H. ||
+|| Nash, T.H. ||
+|| Nash, T. ||
+
 
 === Standard/label name (HUH) ===
 
