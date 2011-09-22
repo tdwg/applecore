@@ -7,7 +7,7 @@
 
 == How to express a collector name ==
 
-Recommended authority file: Harvard Index of Botanists database [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
+Recommended authority file: Harvard Index of Botanists database:  [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
 
 === Full name ===
 
@@ -30,15 +30,16 @@ Last name, first names, title.
 
  * Alternative
 
-First initial, Middle initial(s), Last Name
+First initial, Middle initial(s), Last name
 
 || J. A. Macklin ||
 || C. Linnaeus ||
 
-== How to express teams ==
+== How to express collecting teams (i.e., more than one collector)==
 
  * The primary collector, especially one who applies a personal identifier (recordNumber), should be listed first.
- * Separate with "|" or "; ".
+ * Formatting should follow the recommendations for a single collector.
+ * Separate with "|" or ";"
  * Avoid "&" for separating the last author.
  * Mention that you can concatenate collector fields.
 
