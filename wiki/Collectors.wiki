@@ -7,32 +7,35 @@
 
 == How to express a collector name ==
 
-Recommended to use the Harvard Index of Botanists database: [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
+Recommended authority file: Harvard Index of Botanists database [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
 
-=== Full name (HUH) ===
+=== Full name ===
 
- * Most recommended.
+ * Recommended.
  * Provide as much detail as possible (do not shortform)
 
 Last name, first names, title.
 
 || Macklin, James Alexander ||
 || Macklin, James A. ||
-|| Macklin, J.A. ||
+|| Macklin, J. A. ||
 || Macklin, J. ||
 
 || Nash, Thomas H., III ||
 || Nash, Thomas H. ||
-|| Nash, T.H. ||
+|| Nash, T. H. ||
 || Nash, T. ||
 
-
 === Standard/label name (HUH) ===
+
+ * Alternative
+
+First initial, Middle initial(s), Last Name
 
 || J. A. Macklin ||
 || C. Linnaeus ||
 
-== How to write teams ==
+== How to express teams ==
 
  * The primary collector, especially one who applies a personal identifier (recordNumber), should be listed first.
  * Separate with "|" or "; ".
