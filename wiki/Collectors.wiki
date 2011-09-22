@@ -5,9 +5,9 @@
 
 = Recommendations =
 
-== How to write a collector name ==
+== How to express a collector name ==
 
-Recommended to use the [http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
+Recommended to use the Botany Collectors database:[http://kiki.huh.harvard.edu/databases/botanist_index.html HUH Index of botanists]
 
 === Full name (HUH) ===
 
