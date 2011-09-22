@@ -39,17 +39,20 @@ First initial, Middle initial(s), Last name
 
  * The primary collector, especially one who applies a personal identifier (recordNumber), should be listed first.
  * Formatting should follow the recommendations for a single collector.
- * Separate with "|" or ";"
- * Avoid "&" for separating the last author.
+ * Separate with "|" or ";" (Note: this differs from the Harvard Index Team notation)
+ * Avoid "&" for separating the last author. (Note: this differs from the Harvard Index Team notation)
  * Mention that you can concatenate collector fields.
 
 Last name1, First names1, title1; Last name2, First names2, title2
+
+Macklin, James A.; Moore, Gerry; Lendemer, James Colin
 
  * Where a team/expedition name has been designated and no names are available, use the team/expedition name.
 
 || !FloraQuebeca ||
 || Hay, Stuart G.; !FloraQuebeca ||
 
-*More examples needed*
+|| Edinburgh Expedition to Sikkim & Darjeeling|| 
+(Note that in this example the "&" remains as it is part of the expedition name)
 
-= Examples =
+|| Bean, Ralph Carleton; Josselyn Botanical Society ||
