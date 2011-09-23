@@ -25,7 +25,7 @@ identification extension: http://rs.gbif.org/extension/dwc/identification.xml
 
 == dateIdentified ==
 
-= same rules as for [http://code.google.com/p/applecore/wiki/CollectionDate eventDate or verbatimEventDate] 
+ * same rules as for [http://code.google.com/p/applecore/wiki/CollectionDate eventDate or verbatimEventDate] 
 
 == identificationQualifier ==
 
