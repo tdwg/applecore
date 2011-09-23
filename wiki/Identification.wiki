@@ -19,13 +19,9 @@ Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
  * Add identificationOrder to DwC: "1" is first identification (on label; typically by collector), "N" is the most recent identification.
  * Populate [http://code.google.com/p/applecore/wiki/ScientificName scientificName] with the most recent identification (or the "filed-as" name), "N", even if you have populated the identification extension!
 
-== Basionym ==
-
-Provide in originalNameUsage. In the core. *Also in the identification extension?*
-
 == identifiedBy ==
 
-= same rules as for collector
+ * Same rules as for collector
 
 == dateIdentified ==
 
