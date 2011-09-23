@@ -10,7 +10,7 @@
 3 values in typeStatus, separated by "|" or "; "
 
  # controlled vocabulary
- # typified scientific name -> *any other field we can use* [http://rs.tdwg.org/dwc/terms/typeStatus originalNameUsage]?
+ # typified scientific name -> *any other field we can use* [http://rs.tdwg.org/dwc/terms/index.htm#originalNameUsage originalNameUsage]?
  # publication -> *any other field we can use?* [http://rs.tdwg.org/dwc/terms/typeStatus namePublishedIn]?
 
 == Extension ==
