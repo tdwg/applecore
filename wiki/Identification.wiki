@@ -21,7 +21,7 @@ Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
 
 == identifiedBy ==
 
- * Same rules as for {http://code.google.com/p/applecore/wiki/Collectors collectors]
+ * Same rules as for [http://code.google.com/p/applecore/wiki/Collectors collectors]
 
 == dateIdentified ==
 
