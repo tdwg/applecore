@@ -31,11 +31,11 @@ Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
 
  * Controlled vocabulary: *reference handbook* {JM: Patrick needs to add this]
 
- * These terms "qualify" the identification found in [scientificName.
+ * These terms "qualify" the identification found in [http://code.google.com/p/applecore/wiki/ScientificName scientificName].
 
 || abbreviation || latin || english || definition ||
-|| cf. ||  || compare || cf. or cfr. (confer) = compare. implies that the specimen does not exactly match the species but should be compared with it. ||
-|| aff. ||  || affinity || aff. (affinis) = related to (or bordering). implies that the specimen does not exactly match the species but is related to it. ||
+|| cf. || confer || compare || Implies that the specimen does not exactly match the species but should be compared with it. ||
+|| aff. || affinis || affinity || Related to (or bordering). Implies that the specimen does not exactly match the species but is related to it. ||
 || ? ||  || unknown ||
 || sensu stricto ||  || strict sense ||
 || sensu lato ||  || broad sense ||
