@@ -15,7 +15,7 @@
 
 == Extension ==
 
-Linked to a determination
+Linked to a determination {JM: did we make this extension up or is it from a source? We want to keep to the core and it may be worth not including this?}
 
  * typeStatus = controlled vocabulary
  * typified scientific name = scientific name = basionym
