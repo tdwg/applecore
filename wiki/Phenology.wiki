@@ -21,7 +21,7 @@
 
 === Ferns and Allies: ===
 || *Terms* || *Definition* ||
-|| vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present.  Can refer to sporophyte and gametophyte together or can be appended with "-sporophyte" or "-gametophyte".  For example, a fern without sori present would be termed "vegetative-sporophyte".||
+|| vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present.  Can refer to sporophyte and gametophyte together and can be appended with "-sporophyte" or "-gametophyte".  For example, a fern without sori present would be termed "vegetative-sporophyte".||
 || reproductive || Stage of growth when reproductive structures are present.  When referring to sporangiate plants, permissible append with "-sporophyte".  When referring to plants with antheridia and/or archegonia, permissible append with "-gametophyte".  For example, a fern with sori present would be termed "reproductive-sporophyte". ||
 
 === Gymnosperms/Conifers: ===
