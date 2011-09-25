@@ -24,16 +24,16 @@
 || fruiting || Formation of the seed-bearing structure after flowering or maturation of the fruit. || seed dispersal ||  ||
 
 = Ferns and Allies: =
-|| *Short List* || *Definition* ||
-|| vegetative ||
-|| Sori/Strobilus ||
-|| Sporangiate ||
-|| Sporulating ||
+|| *Term* || *Definition* ||
+|| vegetative || ||
+|| Sori/Strobilus || ||
+|| Sporangiate || ||
+|| Sporulating || ||
 
 = Gymnosperms/Conifers =
-|| *Short List* || *Definition* ||
-|| Vegetative ||
-|| Pollenating (pollen bearing) ||
-|| Pollen releasing ||
-|| Ovulate Cone/Ovule, 1st year ||
-|| Seeding Cone, 2nd year+ ||
+|| *Term* || *Definition* ||
+|| Vegetative || ||
+|| Pollenating (pollen bearing) || ||
+|| Pollen releasing || ||
+|| Ovulate Cone/Ovule, 1st year || ||
+|| Seeding Cone, 2nd year+ || ||
