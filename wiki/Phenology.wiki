@@ -6,11 +6,13 @@
 = Recommendations =
 
  * Useful
- * Best practice: use this controlled vocabulary
+ * Best practice: use controlled vocabulary
  * Use verbatim
  * Multiple values allowed: "flowering; fruiting"
 
 = Examples =
+
+= Controlled Vocabulary =
 = Angiosperms: =
 
 || *Basic Term Set* || *Expanded Term Set* || *Definition* || *Plant Ontology Consortium terms* ||
