@@ -28,6 +28,7 @@ Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
  * same rules as for [http://code.google.com/p/applecore/wiki/CollectionDate eventDate or verbatimEventDate] 
 
 == identificationQualifier ==
+{PWS: According to DwC this term is for expressing _doubt_ about a particular determination, so if we keep with this strict definition, our terms sensu stricto, sensu lato, etc. are not appropriate.  Regardless of how broadly interpret identificationQualifier, I would like to recommend that we leave nomenclatural terms out (e.g., nomen nudum).}
 
  * Controlled vocabulary: some terms and definitions from Bridson, D., & Forman, L. (Eds.). (1999). The Herbarium Handbook (3rd ed.). Kew: Royal Botanic Gardens.
 
