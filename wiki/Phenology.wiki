@@ -12,7 +12,7 @@
 = Examples =
 = Angiosperms: =
 
-|| *Simple Vocabulary* || *Detailed Vocabulary* || *Definition* || *Plant ontology consortium terms* ||
+|| *Terms* || *Expanded Terms* || *Definition* || *Plant Ontology Consortium terms* ||
 || vegetative || vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007134 PO:0007134:vegetative growth] ||
 || flowering || budding || Stage at which only flower buds are present. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007016 PO:0007016:flowering] ||
 || flowering || anthesis || Stage at which some flowers are fully open and when pollen is presented and/or the stigma is receptive. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007016 PO:0007016:flowering] ||
@@ -20,12 +20,12 @@
 || fruiting || fruiting || Stage at which mature fruits are present.  This includes fruits that are dispersing seeds. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007010 PO:0007010:ripening] ||
 
 = Ferns and Allies: =
-|| *Vocabulary* || *Definition* ||
+|| *Terms* || *Definition* ||
 || vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present.  Can refer to sporophyte and gametophyte together or can be appended with "-sporophyte" or "-gametophyte".  For example, a fern without sori present would be termed "vegetative-sporophyte".||
 || reproductive || Stage of growth when reproductive structures are present.  When referring to sporangiate plants, permissible append with "-sporophyte".  When referring to plants with antheridia and/or archegonia, permissible append with "-gametophyte".  For example, a fern with sori present would be termed "reproductive-sporophyte". ||
 
 = Gymnosperms/Conifers: =
-|| *Vocabulary* || *Definition* ||
+|| *Terms* || *Definition* ||
 || vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present. ||
 || microsporangiate || Stage of growth when pollen cones are present. ||
 || megasporangiate ||  Stage of growth when ovulate cones are present. To indicate cones of different ages, permissible to append with "-first year", "-second year", etc.||
