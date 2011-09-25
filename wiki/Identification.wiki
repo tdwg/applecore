@@ -29,7 +29,7 @@ Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
 
 == identificationQualifier ==
 
- * Controlled vocabulary: *reference handbook* {JM: Patrick needs to add this]
+ * Controlled vocabulary: Some terms from Bridson, D., & Forman, L. (Eds.). (1999). The Herbarium Handbook (3rd ed.). Kew: Royal Botanic Gardens.
 
  * These terms "qualify" the identification found in [http://code.google.com/p/applecore/wiki/ScientificName scientificName].
 
