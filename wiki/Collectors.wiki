@@ -42,6 +42,7 @@ First initial, Middle initial(s), Last name
  * Separate with "|" or ";" (Note: this differs from the Harvard Index Team notation)
  * Avoid "&" for separating the last author. (Note: this differs from the Harvard Index Team notation)
  * Mention that you can concatenate collector fields.
+ * Use verbatim
 
 Last name1, First names1, title1; Last name2, First names2, title2
 
@@ -53,6 +54,6 @@ Last name1, First names1, title1; Last name2, First names2, title2
 || Hay, Stuart G.; !FloraQuebeca ||
 
 || Edinburgh Expedition to Sikkim & Darjeeling|| 
-(Note that in this example the "&" remains as it is part of the expedition name)
+(Note that in this example the "&" remains as it is part of the expedition name.)
 
 || Bean, Ralph Carleton; Josselyn Botanical Society ||
