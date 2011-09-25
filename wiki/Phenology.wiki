@@ -5,8 +5,7 @@
 
 = Recommendations =
 
- * Best practice: use this controlled vocabulary *link to standard*
- * Use your controlled vocabulary
+ * Best practice: use this controlled vocabulary
  * Use verbatim
  * Multiple values allowed: "flowering; fruiting"
 
