@@ -23,7 +23,7 @@ The collection code is the coden, acronym or name of the herbarium. It is used t
 
 Provide the Index Herbariorum coden of the herbarium in *_[http://rs.tdwg.org/dwc/terms/collectionCode collectionCode]_*. If the herbarium does not have an IH coden, use the full herbarium name or unregistered acronym instead.
 
-If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/ Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _[http://rs.tdwg.org/dwc/terms/collectionID collectionID]_. It is preferred to use the unresolved identifier: urn:lsid:biocol.org:col:14437, not [http://biocol.org/urn:lsid:biocol.org:col:34164]
+If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/ Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _[http://rs.tdwg.org/dwc/terms/collectionID collectionID]_. It is preferred to use the unresolved identifier: urn:lsid:biocol.org:col:14437, not [http://biocol.org/urn:lsid:biocol.org:col:34164].
 
 == Specimen number ==
 The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically stamped, sticked, printed or written on to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
