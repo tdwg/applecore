@@ -3,13 +3,11 @@
  * [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type]
  * [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord]
 
-
 = Recommendations =
 
 For a regular herbarium specimen:
 || [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type] || [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord] ||
 || !PhysicalObject || !PreservedSpecimen ||
-
 
 For a physical image or drawing of a specimen:
 || [http://rs.tdwg.org/dwc/terms/index.htm#dcterms:type dcterms:type] || [http://rs.tdwg.org/dwc/terms/basisOfRecord basisOfRecord] ||
