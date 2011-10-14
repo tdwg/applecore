@@ -20,4 +20,19 @@
 
 = Recommendations =
 
+== Ranges ==
+
+ * lat1: 46° 32' N
+ * long1: 70° 08' W
+ * lat2: 46° 35' N
+ * long2: 70° 15' W
+
+Result:
+
+ * decimalLatitude: 46.5583333
+ * decimalLongitude: -70.1916667
+ * geodeticDatum: unknown
+ * verbatimCoordinates: 46° 32' N 70° 08' W 46° 35' N 70° 15' W
+ * footprintWKT: POLYGON ((-70.1333333 46.5333333, -70.25 46.5333333, -70.25 46.5833333, -70.1333333 46.5833333, -70.1333333 46.5333333))
+
 = Examples =
