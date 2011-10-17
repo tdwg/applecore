@@ -1,5 +1,4 @@
  * [Introduction]
- * [Glossary]
  * [ListOfTerms List of terms]
  * Guidelines
   * [TypeAndBasisOfRecord Type and basis of record]
@@ -20,3 +19,4 @@
   * [AssociatedInformation Associated information]
   * [UnpublishedInformation Unpublished information]
  * [GoldenDelicious Golden Delicious]
+ * [Glossary]
