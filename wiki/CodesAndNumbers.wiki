@@ -1,9 +1,11 @@
 = Terms =
 
  * [http://rs.tdwg.org/dwc/terms/institutionCode institutionCode]
+ * [http://rs.tdwg.org/dwc/terms/institutionID institutionID]
  * [http://rs.tdwg.org/dwc/terms/collectionCode collectionCode]
  * [http://rs.tdwg.org/dwc/terms/collectionID collectionID]
  * [http://rs.tdwg.org/dwc/terms/datasetName datasetName]
+ * [http://rs.tdwg.org/dwc/terms/datasetID datasetID]
 
  * [http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber]
  * [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers]
@@ -13,10 +15,14 @@
 = Recommendations =
 
 == General ==
-With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a single value per term for all the above terms (= no lists).
+_institutionCode_, _institutionID_, _collectionCode_, _collectionID_, and often datasetName and _datasetID_ are typically the same for all specimen records in a collection dataset. It is useful to provide them per specimen record, but they can be described in more detail in the dataset *metadata*.
 
-== Institution code ==
-{{{ pending }}}
+With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a single value per term for all the above terms (no concatenated lists).
+
+== Institution name ==
+Provide the name of the institution having custody of the specimens in *_[http://rs.tdwg.org/dwc/terms/institutionCode institutionCode]_*. This would be the university, museum or other institution which with the herbarium is associated. If the institution is well-known by its acronym, it can be used, although it is generally more informative to use the full name.
+
+If the institution is registered with the [http://www.gbif.org GBIF], you can provide the UUID issued by the [http://gbrds.gbif.org/ Global Biodiversity Resources Discovery System (GBRDS)] in _[http://rs.tdwg.org/dwc/terms/institutionID institutionID]_: e.g. ff7bd5db-b724-4932-b496-10ea298851f9 for the [http://gbrds.gbif.org/browse/agent?uuid=ff7bd5db-b724-4932-b496-10ea298851f9 Université de Montréal Biodiversity Centre], even though this ID is not resolvable.
 
 == Collection code ==
 The collection code is the coden, acronym or name of the herbarium. It is used to identify and reference the herbarium as collection and is often registered with [http://sciweb.nybg.org/science2/IndexHerbariorum.asp Index Herbariorum]). Ideally its coden is unique in the world.
@@ -25,12 +31,14 @@ Provide the Index Herbariorum coden of the herbarium in *_[http://rs.tdwg.org/dw
 
 If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/ Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _[http://rs.tdwg.org/dwc/terms/collectionID collectionID]_. It is preferred to use the unresolved identifier: urn:lsid:biocol.org:col:14437, not [http://biocol.org/urn:lsid:biocol.org:col:34164].
 
+== Dataset ==
+Ideally, all digitized specimens of a herbarium are published as one dataset, although this might differ for management reasons. As with the institutionID, if the dataset is registered with [http://www.gbif.org GBIF], you can provide the the UUID issued by the [http://gbrds.gbif.org/ GBRDS] in _[http://rs.tdwg.org/dwc/terms/datasetID datasetID]_: e.g. ada5d0b1-07de-4dc0-83d4-e312f0fb81cb for the [http://gbrds.gbif.org/browse/agent?uuid=ada5d0b1-07de-4dc0-83d4-e312f0fb81cb Ouellet-Robert entomological collection (QMOR)]. The _[http://rs.tdwg.org/dwc/terms/datasetName datasetName]_ is less useful, as it would be the same as the name of the collection. The _datasetName_ can be used to provide the subcollection name, if those are used as organizational units in the herbarium (see also below).
+
+
 == Specimen number ==
 The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically stamped, sticked, printed or written on to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
 
-Provide the specimen number in *_[http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber]_*. In combination with the _collectionCode_ it ideally creates a unique identifier for each specimen record in the dataset.
-
-If specimen numbers are only unique within subcollections of the herbarium, it is useful to prefix to the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be provided in _[http://rs.tdwg.org/dwc/terms/datasetName datasetName]_.
+Provide the specimen number in *_[http://rs.tdwg.org/dwc/terms/catalogNumber catalogNumber]_*. In combination with the _collectionCode_ it ideally creates a unique identifier for each specimen record in the dataset. If specimen numbers are only unique within subcollections of the herbarium, it is useful to prefix to the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be provided in _[http://rs.tdwg.org/dwc/terms/datasetName datasetName]_.
 
 Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be provided in _[http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers]_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|" or "; ".
 
