@@ -15,7 +15,7 @@
 = Recommendations =
 
 == General ==
-_institutionCode_, _institutionID_, _collectionCode_, _collectionID_, and often datasetName and _datasetID_ are typically the same for all specimen records in a collection dataset. It is useful to provide them per specimen record, but they can be described in more detail in the dataset *metadata*.
+_institutionCode_, _institutionID_, _collectionCode_, _collectionID_, and often datasetName and _datasetID_ are typically the same for all specimen records in a collection dataset. In order to reference and individual specimen record, it is useful to provide them per record, but they can be described in more detail in the dataset *metadata*.
 
 With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a single value per term for all the above terms (no concatenated lists).
 
