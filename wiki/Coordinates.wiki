@@ -13,6 +13,7 @@
  * [http://rs.tdwg.org/dwc/terms/coordinatePrecision coordinatePrecision]
 
  * [http://rs.tdwg.org/dwc/terms/georeferencedBy georeferencedBy]
+ * [http://rs.tdwg.org/dwc/terms/georeferencedDate georeferencedDate]
  * [http://rs.tdwg.org/dwc/terms/georeferenceProtocol georeferenceProtocol]
  * [http://rs.tdwg.org/dwc/terms/georeferenceSources georeferenceSources]
  * [http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus georeferenceVerificationStatus]
