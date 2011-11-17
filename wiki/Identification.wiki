@@ -6,6 +6,7 @@
  * [http://rs.tdwg.org/dwc/terms/identificationQualifier identificationQualifier]
  * [http://rs.tdwg.org/dwc/terms/identificationRemarks identificationRemarks]
  * [http://rs.tdwg.org/dwc/terms/identificationReferences identificationReferences]
+ * [http://rs.tdwg.org/dwc/terms/identificationVerificationStatus identificationVerificationStatus]
  * [http://rs.tdwg.org/dwc/terms/previousIdentifications previousIdentifications]
 
 = Recommendations =
