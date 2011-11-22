@@ -14,8 +14,8 @@
 === Angiosperms: ===
 || *Basic Term Set* || *Expanded Term Set* || *Definition* || *Plant Ontology Consortium terms* ||
 || vegetative || vegetative || Stage of growth when vegetative structures are being produced. No reproductive structures present. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007134 PO:0007134:vegetative growth] ||
-|| flowering || inflorescence detectable || Stage at which only flower buds are present. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007016 PO:0007016:flowering] ||
-|| flowering || flowering || Stage at which some flowers are fully open and when pollen is presented and/or the stigma is receptive. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007016 PO:0007016:flowering] ||
+|| flowering || budding || Stage at which only flower buds are present. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007047 PO:0007047:inflorescence detectable stage] ||
+|| flowering || anthesis || Stage at which some flowers are fully open and when pollen is presented and/or the stigma is receptive. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007016 PO:0007016:flowering] ||
 || fruiting || fruit forming || Stage at which a seed-bearing structure is being formed, but before maturation of the fruit. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007042 PO:0007042:fruit formation] ||
 || fruiting || fruiting || Stage at which mature fruits are present.  This includes fruits that are dispersing seeds. || [http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:0007010 PO:0007010:ripening] ||
 
