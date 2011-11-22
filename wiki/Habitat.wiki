@@ -12,7 +12,7 @@ If habitat is provided on the label, report this value. Habitat can be derived f
 If habitat information is standardized in any form it is recommended to report habitat according to a published source and write that interpretation in square brackets.
 
  * verbatimLocality and habitat can overlap
- * preferred to use verbatim values, but controlled vocabulary can be used. *!NatureServe example*
+ * preferred to use verbatim values, but controlled vocabulary can be used.
 
 == Remarks ==
 
