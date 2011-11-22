@@ -16,7 +16,7 @@ If habitat information is standardized in any form it is recommended to report h
 
 == Remarks ==
 
-<font color=red>[DELETE?] pws, jm</font>
+<font color=red>`[`DELETE?`]` pws, jm</font>
 
 If you do not have separate habitat field, put everything in occurrenceRemarks = remarks or notes about the specimen
 
