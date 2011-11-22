@@ -34,18 +34,11 @@ Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
 
  * These terms "qualify" the identification found in [http://code.google.com/p/applecore/wiki/ScientificName scientificName].
 
-|| abbreviation || latin || english || definition ||
-|| cf. || confer || compare || Implies that the specimen does not exactly match the species but should be compared with it. ||
-|| aff. || affinis || affinity || Related to (or bordering). Implies that the specimen does not exactly match the species but is related to it. ||
-|| ? ||  || unknown ||
-|| sensu stricto ||  || strict sense ||
-|| sensu lato ||  || broad sense ||
-|| nom. nud. ||  ||  ||
-|| ined. ||  ||  ||
-|| forsan ||  ||  ||
-|| haud. ||  ||  ||
-|| not as ||  ||  ||
-|| stet! ||  || I agree || Does this belong in this list? ||
+|| term/abbreviation || english || definition ||
+|| confer/cf. || compare || Implies that the specimen does not exactly match the species but should be compared with it. ||
+|| affinis/aff. || affinity || Related to (or bordering). Implies that the specimen does not exactly match the species but is related to it. ||
+|| ? || || Determiner expresses doubt about determination. <font color=red>This refers to a previous determination. How do we express this? pws, jm</font> ||
+|| forsan || perhaps || Determiner expresses doubt about determination. <font color=red>This refers to a previous determination. How do we express this? pws, jm</font> ||
 
 Example from DwC comment for [http://rs.tdwg.org/dwc/terms/index.htm#identificationQualifier identificationQualifier]: "For the determination "Quercus aff. agrifolia var. oxyadenia", identificationQualifier would be "aff. agrifolia var. oxyadenia" with accompanying values "Quercus" in genus, "agrifolia" in specificEpithet, "oxyadenia" in infraspecificEpithet, and "var." in rank. 2) For the determination "Quercus agrifolia cf. var. oxyadenia", identificationQualifier would be "cf. var. oxyadenia " with accompanying values "Quercus" in genus, "agrifolia" in specificEpithet, "oxyadenia" in infraspecificEpithet, and "var." in rank."
 
@@ -54,6 +47,10 @@ Example from DwC comment for [http://rs.tdwg.org/dwc/terms/index.htm#identificat
  * Should apply to that identification only.
  * Not structured = verbatim.
  * Any interpretation of that field in [square brackets].
+ * Place statements about nomenclature here (e.g., _nom. nud._, _nom. nov._, _nom. illegit._, _sens. auct._, etc.).
+ * Place statements about taxonomic concepts here (e.g., _sens. lato_, _sens. str._, etc.).
+|| haud || not at all ||  A determiner (not the identifiedBy individual)  with determination. <font color=red>This refers to a previous determination. How do we express this? pws, jm</font>||
+|| not || || A determiner (not the identifiedBy individual) disagrees with determination. <font color=red>This refers to a previous determination. How do we express this? pws, jm</font>||
 
 == identificationReferences ==
 
