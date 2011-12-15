@@ -10,5 +10,14 @@ A list (concatenated and separated by ";" or "|") of preparations and preservati
 [JM: Can we standardize this list or is it too much? Do we want/need to show quantity of specimens related to record, eg., 3 slides, or slide; slide; slide, or slide (3)...? What should we do about media, eg. ETOH, Formalin, Paraffin, balsam, DNA buffer...]
 
 || Preparation|| Definition||
-|| Dried||
+|| Dried on sheet || Specimen mounted on standard herbarium sheet ||
+|| Dried in packet || Specimen Placed in packet ||
+|| Fruit dried || Fruit ...||
+|| Fruit wet || Fruit in liquid media, eg., ETOH, ETOH and Glycol... ||
+|| Flowers wet || Flowers in liquid media, eg., ETOH, ETOH and Glycol... ||
+|| Wood dried || Wood... ||
+|| Slide || Mounted on slide in various media ||
+|| DNA extract || DNA extract from specimen ||
+
+
 = Examples =
