@@ -5,7 +5,7 @@
 = Recommendations =
 
 == Preparations ==
-
+A list (concatenated and separated) of preparations and preservation methods for a specimen.
 
 
 = Examples =
