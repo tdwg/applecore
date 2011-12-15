@@ -5,7 +5,8 @@
 = Recommendations =
 
 == Preparations ==
-A list (concatenated and separated) of preparations and preservation methods for a specimen.
+A list (concatenated and separated by ";" or "|") of preparations and preservation methods for a specimen.
 
+[JM: Can we standardize this list or is it too much?]
 
 = Examples =
