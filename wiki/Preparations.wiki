@@ -7,7 +7,8 @@
 == Preparations ==
 A list (concatenated and separated by ";" or "|") of preparations and preservation methods for a specimen.
 
-[JM: Can we standardize this list or is it too much?]
+[JM: Can we standardize this list or is it too much? Do we want/need to show quantity, eg., 5 slides? What is the relationship to preservedSpecimen?]
 
-
+|| Preparation|| Definition||
+|| Dried||
 = Examples =
