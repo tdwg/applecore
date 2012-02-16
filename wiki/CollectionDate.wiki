@@ -11,15 +11,15 @@
 
 = Recommendations =
 
-The collection date is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label.
+The *collection date* is the date, date range or dates on which a specimen was collected, and is typically written on the specimen label.
 
 == Verbatim date ==
 
 The verbatim date is the collection date as written on the specimen label (see the definition for [http://code.google.com/p/applecore/wiki/Glossary#Verbatim verbatim]) and is recorded in a single free-text field.
 
-It is recommended to always record a verbatim date as it is the most objective way to record the collection date and in some cases even the only way to do so. Alternatively, a verbatim date can be recorded when the [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date formatted date] cannot unambiguously represent the collection date (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]).
+It is recommended to have a verbatim date field in your database, as it is the most objective way to record the collection date and in some cases the only way to do so. You can either always populate this field or only when the [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date formatted date] cannot unambiguously represent the collection date (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]).
 
-Provide the verbatim date in *_[http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate]_*. Remarks or notes regarding the collection date are accepted in this term as long as the verbatim date is included as well: "3/5/2009 (probably March)" or if the date is illegible: "illisible". If a database field contains verbatim and non-verbatim dates or if it is unknown whether the field corresponds to the verbatim date, it should _not_ be considered a _verbatimEventDate_.
+Publish the verbatim date in *_[http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate]_*. Remarks or notes regarding the collection date are accepted in this term as long as the verbatim date is included as well: "3/5/2009 (probably March)" or if the date is illegible: "illisible". If a database contains verbatim and non-verbatim dates in one field or if it is unknown whether the field corresponds to the verbatim date, it should _not_ be considered a _verbatimEventDate_ and should be shared in _[http://rs.tdwg.org/dwc/terms/eventDate eventDate]_ instead (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples example 8]). Transform those non-verbatim dates to ISO 8601 if possible (see [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date below]).
 
 == Formatted date ==
 
@@ -36,17 +36,17 @@ As the verbatim date doesn't readily allows calculation and sorting, most collec
  * Day = 8-15 | Month = 7 | Year = 1980
  * Start day = 8 | Start month = 7 | Start year = 1980 | End day = 15 | End month = 7 | End year = 1980
 
-It is recommended to store any formatted date using the *[http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)]* standard. In ISO 8601 date and time values are organized from the most to the least significant and with a fixed number of digits per value: YYYY-MM-DD. Date ranges are expressed with a forward slash: YYYY-MM-DD/YYYY-MM-DD, YYYY-MM-DD/MM-DD or YYYY-MM-DD/DD. Partial dates can only be expressed by dropping the least significant values first: YYYY-MM or YYYY, but never MM-DD.  For more information and examples, see http://en.wikipedia.org/wiki/ISO_8601 and http://code.google.com/p/darwincore/wiki/Event.
+It is recommended to store any formatted date using the *[http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)]* standard. In ISO 8601 date and time values are organized from the most to the least significant and with a fixed number of digits per value: YYYY-MM-DD. Date ranges are expressed with a forward slash: YYYY-MM-DD/YYYY-MM-DD, YYYY-MM-DD/MM-DD or YYYY-MM-DD/DD. Partial dates can only be expressed by dropping the least significant values first: YYYY-MM or YYYY, but never MM-DD.  For more information and examples, see [http://en.wikipedia.org/wiki/ISO_8601 Wikipedia] and the [http://code.google.com/p/darwincore/wiki/Event Darwin Core wiki].
 
 If it is necessary to record the collection date in multiple fields (start/end date or day/month/year), try to store the date in a format close to ISO 8601, so it can easily be transformed by concatenation.
 
-Provide the formatted collection date in *_[http://rs.tdwg.org/dwc/terms/eventDate eventDate]_*. It is *highly recommended to use the [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)] standard*, as it allows the date information to be shared unambiguously. Other date formats should only be used if the collection is unable to record or transform the dates to ISO 8601.
+Publish the formatted collection date in *_[http://rs.tdwg.org/dwc/terms/eventDate eventDate]_*. It is *highly recommended to use the [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601:2004(E)] standard*, as it allows the date information to be shared unambiguously. Other date formats should only be used if the collection is unable to record or transform the dates to ISO 8601.
 
-Although date ranges can be expressed in _eventDate_, multiple dates cannot. See example 6 in [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples].
+Although date ranges can be expressed in _eventDate_ (with "/"), multiple dates cannot (see [http://code.google.com/p/applecore/wiki/CollectionDate#Example example 7]).
 
 == Other date terms ==
 
-In addition to _eventDate_, Darwin Core offers several other date terms which allow (part of) the collection date to be expressed in a more readily useable format (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]). Provide values for this terms if feasible.
+In addition to _eventDate_, Darwin Core offers several other date terms which allow (part of) the collection date to be published in a more readily useable format (see [http://code.google.com/p/applecore/wiki/CollectionDate#Examples examples]). Provide values for this terms if feasible.
 
 Some guidelines:
  * [http://rs.tdwg.org/dwc/terms/eventTime eventTime]: Useful if the time is recorded, but not the date (otherwise _[http://rs.tdwg.org/dwc/terms/eventDate eventDate]_ can be used as well). Rare for herbarium specimens.
@@ -58,15 +58,28 @@ Some guidelines:
 
 = Examples =
 
+== Ideal situation ==
+
+The following examples show the most ideal situation: the [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date verbatim date] is known, the eventDate is strictly expressed in the ISO 8601 standard and [http://code.google.com/p/applecore/wiki/CollectionDate#Other_date_terms other date terms] can be populated automatically.
+
 ||  || [http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate] || [http://rs.tdwg.org/dwc/terms/eventDate eventDate] || [http://rs.tdwg.org/dwc/terms/eventTime eventTime] || [http://rs.tdwg.org/dwc/terms/startDayOfYear startDayOfYear] || [http://rs.tdwg.org/dwc/terms/endDayOfYear endDayOfYear] || [http://rs.tdwg.org/dwc/terms/year year] || [http://rs.tdwg.org/dwc/terms/month month] || [http://rs.tdwg.org/dwc/terms/day day] ||
 || *1* || 1 juillet 1991 || 1991-07-01 ||  || 182 || 182 || 1991 || 7 || 1 ||
-|| *2* || 3/1/2004 || 2004 ||  ||  ||  || 2004 ||  ||  ||
-|| *3* || Early spring 1999 || 1999 ||  ||  ||  || 1999 ||  ||  ||
-|| *4* || March 12 ||  ||  ||  ||  ||  || 3 || 12 ||
-|| *5* || July 24-25, 1947 || 1947-07-24/1947-07-25 ||  || 205 || 206 || 1947 || 7 ||  ||
-|| *6* || May 16 and August 7, 1991 ||  ||  ||  ||  || 1991 ||  ||  ||
+|| *2* ||  || 1991-07-01 ||  || 182 || 182 || 1991 || 7 || 1 ||
+|| *3* || 3/1/2004 || 2004 ||  ||  ||  || 2004 ||  ||  ||
+|| *4* || Early spring 1999 || 1999 ||  ||  ||  || 1999 ||  ||  ||
+|| *5* || March 12 ||  ||  ||  ||  ||  || 3 || 12 ||
+|| *6* || July 24-25, 1947 || 1947-07-24/1947-07-25 ||  || 205 || 206 || 1947 || 7 ||  ||
+|| *7* || May 16 and August 7, 1991 ||  ||  ||  ||  || 1991 ||  ||  ||
 
- * Example 2: If additional information is available regarding the month (January or March), the terms can be populated as in example 1.
- * Example 4: Partial dates can only be expressed from the least to the most significant in _eventDate_. In this case the most significant (year) is missing.
- * Example 5: The _eventDate_ may also be written as 1947-07-24/25.
- * Example 6: Some herbarium specimens have multiple dates (e.g. one for the flower and one for the plant). Multiple dates cannot be expressed in _eventDate_.
+ * Example 2: The collection does not record a verbatim date if the collection date can be unambiguously expressed in a formatted date.
+ * Example 3: If additional information is available regarding the month (January or March), the terms can be populated as in example 1.
+ * Example 5: Partial dates can only be expressed from the least to the most significant in _eventDate_. In this case the most significant (year) is missing.
+ * Example 6: The _eventDate_ may also be written as 1947-07-24/25.
+ * Example 7: Some herbarium specimens have multiple dates (e.g. one for the flower and one for the plant). Multiple dates cannot be expressed in _eventDate_.
+
+== Least ideal situation ==
+
+The following example shows the least ideal situation: the [http://code.google.com/p/applecore/wiki/CollectionDate#Verbatim_date verbatim date] is unknown, the [http://code.google.com/p/applecore/wiki/CollectionDate#Formatted_date formatted date] is not recorded as ISO 8601 and it is not feasible for the collection to transform the formatted date to ISO 8601 for some of its records.
+
+||  || [http://rs.tdwg.org/dwc/terms/verbatimEventDate verbatimEventDate] || [http://rs.tdwg.org/dwc/terms/eventDate eventDate] || [http://rs.tdwg.org/dwc/terms/eventTime eventTime] || [http://rs.tdwg.org/dwc/terms/startDayOfYear startDayOfYear] || [http://rs.tdwg.org/dwc/terms/endDayOfYear endDayOfYear] || [http://rs.tdwg.org/dwc/terms/year year] || [http://rs.tdwg.org/dwc/terms/month month] || [http://rs.tdwg.org/dwc/terms/day day] ||
+|| *8* ||  || 01 Aug 1991 ||  ||  ||  ||  ||  ||  ||
