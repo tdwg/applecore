@@ -22,7 +22,7 @@ _institutionCode_, _institutionID_, _collectionCode_, _collectionID_, and often 
 == Institution name ==
 Provide the name of the institution having custody of the specimens in *_[http://rs.tdwg.org/dwc/terms/institutionCode institutionCode]_*. This would be the university, museum or other institution which with the herbarium is associated. If the institution is well-known by its acronym, it can be used, although it is generally more informative to use the full name.
 
-If the institution is registered with the [http://www.gbif.org GBIF], provide the UUID issued by the [http://gbrds.gbif.org/ Global Biodiversity Resources Discovery System (GBRDS)] in _[http://rs.tdwg.org/dwc/terms/institutionID institutionID]_ (e.g. "[http://gbrds.gbif.org/browse/agent?uuid=ff7bd5db-b724-4932-b496-10ea298851f9 ff7bd5db-b724-4932-b496-10ea298851f9]"), even though this ID is currently not resolvable.
+If the institution is registered with the [http://www.gbif.org GBIF], provide the UUID issued by the [http://gbrds.gbif.org/ Global Biodiversity Resources Discovery System (GBRDS)] in _[http://rs.tdwg.org/dwc/terms/institutionID institutionID]_ (e.g. "[http://gbrds.gbif.org/browse/agent?uuid=ff7bd5db-b724-4932-b496-10ea298851f9 urn:gbif:uuid:ff7bd5db-b724-4932-b496-10ea298851f9]"), even though this ID is currently not resolvable.
 
 == Collection code ==
 The collection code is the coden, acronym or name of the herbarium. It is used to identify and reference the herbarium as collection and is often registered with [http://sciweb.nybg.org/science2/IndexHerbariorum.asp Index Herbariorum]). Ideally its coden is unique in the world.
@@ -32,7 +32,7 @@ Provide the Index Herbariorum coden of the herbarium in *_[http://rs.tdwg.org/dw
 If the herbarium is registered with the [http://www.biodiversitycollectionsindex.org/ Biodiversity Collections Index] or another official registry, provide the collection identifier issued by one (!) of those registries in _[http://rs.tdwg.org/dwc/terms/collectionID collectionID]_. It is preferred to use the unresolved identifier: urn:lsid:biocol.org:col:14437, not [http://biocol.org/urn:lsid:biocol.org:col:34164].
 
 == Dataset ==
-Ideally, all digitized specimens of a herbarium are published as one dataset, although this might differ for management reasons. As with the institutionID, if the dataset is registered with [http://www.gbif.org GBIF], provide the the UUID issued by the [http://gbrds.gbif.org/ GBRDS] in _[http://rs.tdwg.org/dwc/terms/datasetID datasetID]_ (e.g. "[http://gbrds.gbif.org/browse/agent?uuid=0348540a-e644-4496-89d3-c257da9ad776 0348540a-e644-4496-89d3-c257da9ad776]").
+Ideally, all digitized specimens of a herbarium are published as one dataset, although this might differ for management reasons. As with the institutionID, if the dataset is registered with [http://www.gbif.org GBIF], provide the the UUID issued by the [http://gbrds.gbif.org/ GBRDS] in _[http://rs.tdwg.org/dwc/terms/datasetID datasetID]_ (e.g. "[http://gbrds.gbif.org/browse/agent?uuid=0348540a-e644-4496-89d3-c257da9ad776 urn:gbif:uuid:0348540a-e644-4496-89d3-c257da9ad776]").
 
 == Specimen number ==
 The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically stamped, sticked, printed or written on to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
