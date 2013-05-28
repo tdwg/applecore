@@ -12,7 +12,7 @@
  * [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers]
 
  * [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]
- * duplicatesAt
+ * duplicatesAt (suggested addition to DwC)
 
 = Recommendations =
 
