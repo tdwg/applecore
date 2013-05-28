@@ -53,9 +53,9 @@ The collector number is a personal identifier assigned by the collector to the s
 Publish the collector number in *_[http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|" or "; ".
 
 == Duplicates At (suggested addition to DwC)==
-It is common practice for botanical collectors to make several duplicate "collections" representing an individual or population to be distributed to other herbaria. Thus, these are all part of the same occurance. Upon distribution, the Index Herbariorum acronym is used to indicate the other herbaria that are assewrted to hold a duplicate of the collection object. These acronyms should be separated by "|" characters.
+It is common practice for botanical collectors to make several duplicate "collections" representing an individual or population to be distributed to other herbaria. These duplicates are all part of the same occurrence. Upon distribution, the Index Herbariorum acronym is used to indicate the other herbaria that are asserted to hold a duplicate of the collection object.
 
-
+Publish the duplicates in duplicatesAt. In the case of multiple duplicates for the same occurrence, list the distributing herbaria acronym first (if known) and separate with "|" or "; ".
 
 = Examples =
 
