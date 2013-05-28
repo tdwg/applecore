@@ -12,6 +12,7 @@
  * [http://rs.tdwg.org/dwc/terms/otherCatalogNumbers otherCatalogNumbers]
 
  * [http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]
+ * duplicateAt
 
 = Recommendations =
 
@@ -50,6 +51,9 @@ Any specimen identifier attached to the specimen that is not used as the primary
 The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting, and typically written on the specimen label. Collector numbers - also called collection numbers - often form chronological series of specimens collected by one or more collectors. Duplicate specimens typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
 
 Publish the collector number in *_[http://rs.tdwg.org/dwc/terms/recordNumber recordNumber]_*. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|" or "; ".
+
+== Duplicates At [suggested addition to DwC]==
+It is common practice for botanical collectors to make several duplicate "collections" representing an individual or population to be distributed to other herbaria. These should be seen as Upon distribution, the Index Herbariorum acronym is used to indicate the other herbaria that hold a duplicate of the collection object. These acronyms should be separated by "|" characters and not include the distributing institution's acronym.
 
 = Examples =
 
