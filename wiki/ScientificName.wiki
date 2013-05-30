@@ -31,7 +31,7 @@
  * If you use abbreviations, use the International Plant Names Index (IPNI) controlled vocabulary "Standard form," which continues to update post Brummit and Powell, 1992: http://www.ipni.org/ipni/authorsearchpage.do
 Examples:
 || Full Name || Standard Form ||
-|| James Alexander Macklin|| J.A. Macklin ||
+|| James Alexander Macklin|| J.A.Macklin ||
 || Joseph Dalton Hooker || Hook.f. ||
 || William Hooker || W.Hook. ||
 || William Jackson Hooker || Hook. ||
@@ -39,7 +39,46 @@ Examples:
 == Rank ==
 
  * verbatimTaxonRank = shortform
- * taxonRank = controlled vocabulary
+ * taxonRank = controlled vocabulary: 
+
+|| Ranks ||
+|| kingdom ||
+|| subkingdom ||
+|| phylum ||
+|| subphylum ||
+|| superclass ||
+|| class ||
+|| subclass ||
+|| superorder ||
+|| order ||
+|| suborder ||
+|| infraorder ||
+|| superfamily ||
+|| family ||
+|| subfamily ||
+|| tribe ||
+|| subtribe ||
+|| genus ||
+|| subgenus ||
+|| section ||
+|| subsection ||
+|| Species Aggregate ||
+|| speciesAggregate ||
+|| species ||
+|| Subspecific Aggregate ||
+|| subspecificAggregate ||
+|| subspecies ||
+|| variety ||
+|| subvariety ||
+|| form ||
+|| subform ||
+|| Cultivar-Group ||
+|| cultivarGroup ||
+|| Cultivar ||
+|| cultivar ||
+
+
+
 
 == Infraspecific rank ==
  * Provide name for the lowest rank.
