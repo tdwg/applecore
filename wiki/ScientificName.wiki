@@ -31,8 +31,10 @@
  * If you use abbreviations, use the International Plant Names Index (IPNI) controlled vocabulary "Standard form," which continues to update post Brummit and Powell, 1992: http://www.ipni.org/ipni/authorsearchpage.do
 Examples:
 || Full Name || Standard Form ||
-|| James Alexander Macklin|| Joseph Dalton Hooker || William Hooker ||
-|| William Jackson Hooker ||  J.A. Macklin || Hook.f. || W.Hook. || Hook. ||
+|| James Alexander Macklin|| J.A. Macklin ||
+|| Joseph Dalton Hooker || Hook.f. ||
+|| William Hooker || W.Hook. ||
+|| William Jackson Hooker || Hook. ||
 
 == Rank ==
 
