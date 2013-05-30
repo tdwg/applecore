@@ -41,7 +41,7 @@ Examples:
  * verbatimTaxonRank = shortform
  * taxonRank = controlled vocabulary: 
 
-|| Ranks ||
+|| *Rank* ||
 || kingdom ||
 || subkingdom ||
 || phylum ||
@@ -62,19 +62,15 @@ Examples:
 || subgenus ||
 || section ||
 || subsection ||
-|| Species Aggregate ||
 || speciesAggregate ||
 || species ||
 || Subspecific Aggregate ||
-|| subspecificAggregate ||
 || subspecies ||
 || variety ||
 || subvariety ||
 || form ||
 || subform ||
-|| Cultivar-Group ||
 || cultivarGroup ||
-|| Cultivar ||
 || cultivar ||
 
 
