@@ -19,15 +19,15 @@
 
 == Scientific name ==
 
- * Provide as much as you can
+ * Provide as much information as you can including ranks and authorities where necessary.
  * If this term is concatenated from different fields, create a name that is nomenclaturally correct.
- * Include rankmarkers (standardized or long)
- * Provide full names for the authors (according to a code), avoid author abbreviations.
- * Provide authorship for zero, one, some or all ranks in the name.
- * No years
+ * Include rank markers in standardized form (preferred) or in full.
+ * Provide full names for the authors (according to the code), avoid author abbreviations.[JAM: do we want to say this? abbrevs. are the norm]
+ * Provide authorship for zero, one, some or all ranks in the name. [JAM: Should we prefer just the lowest rank author?] 
+ * No years (not nomenclaturally correct in Botany)
 
 == Authorship ==
- * Full author name for the lowest rank. J.A. Macklin.
+ * Full author name(s) for the lowest rank. J.A. Macklin.
  * If you use abbreviations, use this controlled vocabulary "Standard form" (IPNI): A.Cunn, L., *more examples, link*
 
 == Rank ==
