@@ -29,7 +29,8 @@
 == Authorship ==
  * Full author name(s) for the lowest rank.
  * If you use abbreviations, use the International Plant Names Index (IPNI) controlled vocabulary "Standard form," which continues to update post Brummit and Powell, 1992: http://www.ipni.org/ipni/authorsearchpage.do
-
+Examples:
+|| Full Name || James Alexander Macklin|| Joseph Dalton Hooker || William Hooker || William Jackson Hooker || || Standard Form || J.A. Macklin || Hook.f. || W.Hook. || Hook. ||
 
 == Rank ==
 
