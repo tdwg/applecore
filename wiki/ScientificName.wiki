@@ -38,10 +38,10 @@ Examples:
 
 == Rank ==
 
- * verbatimTaxonRank = shortform
- * taxonRank = controlled vocabulary: 
+ * verbatimTaxonRank = shortform (e.g., sp., var., subsp.) or other group-forming categories (e.g., apomict, agamospecies
+ * taxonRank = controlled vocabulary: http://vocabularies.gbif.org/vocabularies/taxon_rank
 
-|| *Rank* ||
+|| *Ranks:* ||
 || kingdom ||
 || subkingdom ||
 || phylum ||
