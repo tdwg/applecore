@@ -8,7 +8,7 @@
  * Useful
  * Best practice: use controlled vocabulary
  * Use verbatim
- * Multiple values allowed: "flowering; fruiting"
+ * Multiple values allowed: "flowering | fruiting"
 
 == Controlled Vocabulary ==
 === Angiosperms: ===
