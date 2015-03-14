@@ -1,0 +1,117 @@
+# Terms #
+
+  * [scientificName](http://rs.tdwg.org/dwc/terms/scientificName)
+  * [higherClassification](http://rs.tdwg.org/dwc/terms/higherClassification)
+  * [kingdom](http://rs.tdwg.org/dwc/terms/kingdom)
+  * [phylum](http://rs.tdwg.org/dwc/terms/phylum)
+  * [class](http://rs.tdwg.org/dwc/terms/class)
+  * [order](http://rs.tdwg.org/dwc/terms/order)
+  * [family](http://rs.tdwg.org/dwc/terms/family)
+  * [genus](http://rs.tdwg.org/dwc/terms/genus)
+  * [subgenus](http://rs.tdwg.org/dwc/terms/subgenus)
+  * [specificEpithet](http://rs.tdwg.org/dwc/terms/specificEpithet)
+  * [infraspecificEpithet](http://rs.tdwg.org/dwc/terms/infraspecificEpithet)
+  * [scientificNameAuthorship](http://rs.tdwg.org/dwc/terms/scientificNameAuthorship)
+  * [taxonRank](http://rs.tdwg.org/dwc/terms/taxonRank)
+
+# Recommendations #
+
+## Scientific name ##
+
+  * Provide as much information as you can including ranks and authorities where necessary.
+  * If this term is concatenated from different fields, create a name that is nomenclaturally correct.
+  * Include rank markers in standardized form (preferred) or in full.
+  * Provide full names for the authors (according to the code), avoid author abbreviations.[JAM: do we want to say this? abbrevs. are the norm]
+  * Provide authorship for zero, one, some or all ranks in the name. [JAM: Should we prefer just the lowest rank author?]
+  * No years (not nomenclaturally correct in Botany)
+
+## Authorship ##
+  * Full author name(s) for the lowest rank.
+  * If you use abbreviations, use the International Plant Names Index (IPNI) controlled vocabulary "Standard form," which continues to update post Brummit and Powell, 1992: http://www.ipni.org/ipni/authorsearchpage.do
+Examples:
+| Full Name | Standard Form |
+|:----------|:--------------|
+| James Alexander Macklin| J.A.Macklin |
+| Joseph Dalton Hooker | Hook.f. |
+| William Hooker | W.Hook. |
+| William Jackson Hooker | Hook. |
+
+## Rank ##
+
+  * verbatimTaxonRank = shortform (e.g., sp., var., subsp.) or other group-forming categories (e.g., apomict, agamospecies
+  * taxonRank = controlled vocabulary: http://vocabularies.gbif.org/vocabularies/taxon_rank
+
+| **Ranks:** |
+|:-----------|
+| kingdom |
+| subkingdom |
+| phylum |
+| subphylum |
+| superclass |
+| class |
+| subclass |
+| superorder |
+| order |
+| suborder |
+| infraorder |
+| superfamily |
+| family |
+| subfamily |
+| tribe |
+| subtribe |
+| genus |
+| subgenus |
+| section |
+| subsection |
+| speciesAggregate |
+| species |
+| Subspecific Aggregate |
+| subspecies |
+| variety |
+| subvariety |
+| form |
+| subform |
+| cultivarGroup |
+| cultivar |
+
+
+
+
+## Infraspecific rank ##
+  * Provide name for the lowest rank.
+  * Does mean some information will be lost (**example**).
+
+## Losing information, find examples! ##
+  * If you use all the fields, but not scientificName, there are examples where you cannot differentiate between two names: e.g. the same variety with the same author is used in two subspecies and they mean something different: **genusA speciesA subspeciesA varietyA varietyauthorA ≠ genusA speciesA subspeciesB varietyA varietyauthorA**
+  * If you use all the fields, including scientificName, there might be an example where the same species and author are used in two different genera (with the same name. diff. authors), and they mean something different: **genusA genusauthorA speciesA speciesauthorA ≠ genusA genusauthorB speciesA speciesauthorA**
+
+## Genus ##
+  * Preferably without authorship, but not restricted by the definition. **Ask TDWG**
+
+## Higher classification ##
+  * Stops at rank above scientificName.
+  * Only place where you can include sections, series, etc. for a species.
+  * Only place where you can include superorder, etc. for a species (but you cannot provide the rank!)
+  * Does not include ranks? **Ask TDWG**
+
+## Hybrids ##
+  * Use hybrid rank. **Ask TDWG**
+  * Use multiplication sign. **Check if other things are accepted by ICBN**
+
+## nomenclaturalCode ##
+
+ICBN: only if you know that all names follow this code!
+
+# Examples #
+
+|  | [scientificName](http://rs.tdwg.org/dwc/terms/scientificName) | [genus](http://rs.tdwg.org/dwc/terms/genus) | [subgenus](http://rs.tdwg.org/dwc/terms/subgenus) | [infragenericEpithet](http://rs.tdwg.org/dwc/terms/infragenericEpithet)? | [specificEpithet](http://rs.tdwg.org/dwc/terms/specificEpithet) | [infraspecificEpithet](http://rs.tdwg.org/dwc/terms/infraspecificEpithet) | [scientificNameAuthorship](http://rs.tdwg.org/dwc/terms/scientificNameAuthorship) | [taxonRank](http://rs.tdwg.org/dwc/terms/taxonRank) |
+|:-|:--------------------------------------------------------------|:--------------------------------------------|:--------------------------------------------------|:-------------------------------------------------------------------------|:----------------------------------------------------------------|:--------------------------------------------------------------------------|:----------------------------------------------------------------------------------|:----------------------------------------------------|
+| **1** | Senecio fuchsii C.C.Gmel. subsp. fuchsii var. expansus (Boiss. & Heldr.) Hayek | Senecio |  |  | fuchsii | expansus | (Boiss. & Heldr.) Hayek | variety |
+| **2** | Cryptomeria japonica 'Elegans' | Cryptomeria |  |  | japonica |  |  | cultivar |
+| **3** | Pyrocrataegus ×willei L.L.Daniel | Pyrocrataegus |  |  | ×willei |  | L.L.Daniel | nothospecies|species? |
+| **4** | Agrostis stolonifera L. × Polypogon monspeliensis (L.) Desf. | ? |  |  | ? |  |  | hybridFormula? |
+| **5** | Asplenium rhizophyllum × ruta-muraria | Asplenium |  |  |  |  |  | hybridFormula? |
+| **6** | Mentha aquatica L. × M. arvensis L. × M. spicata L. | Mentha |  |  |  |  |  | hybridFormula? |
+| **7** | Maxillaria sect. Multiflorae Christenson | Maxillaria |  | Multiflorae |  |  | Christenson | section |
+| **8** | Amaranthus subgenus Albersia (Kunth) Grenier & Godron | Amaranthus | Amaranthus subgenus Albersia | Albersia |  |  | (Kunth) Grenier & Godron | subgenus |
+| **9** | Amaranthus albus Linnaeus | Amaranthus | Amaranthus subgenus Albersia | Albersia | albus |  | Linnaeus | species |

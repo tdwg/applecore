@@ -1,0 +1,9 @@
+## Introduction ##
+
+Darwin Core (DwC) has become a mature set of standards designed for sharing biodiversity data. Documentation including definitions and examples are provided for each term on the DwC website (http://rs.tdwg.org/dwc/). However, the inherent generality of the documentation has lead to broad interpretation of the terms or confusion about which terms to use within a community. The goal of Apple Core is to tackle this issue for herbaria by providing detailed guidelines based on best practices for publishing botanical specimen information as DwC. These guidelines will include recommended terms, more specific definitions, multiple examples, common issues and controlled vocabularies where appropriate. Apple Core should not be considered an extension of DwC: we specifically avoid creating any new terms or extensions. If the need for an additional term arises, it will be proposed for inclusion in DwC.
+
+Apple Core datasets will be expressible as Simple Darwin Core or as an Occurrence core (http://rs.gbif.org/core/dwc_occurrence.xml) with an Identification History extension (http://rs.gbif.org/extension/dwc/identification.xml).
+
+Once the documentation has been reviewed by the TDWG and herbarium community, we plan to join it with the Darwin Core documentation at http://code.google.com/p/darwincore/wiki/TableOfContents. This is a volunteer project. Please consider contributing!
+
+### [Go to the wiki »](http://code.google.com/p/applecore/wiki/Introduction) ###

@@ -1,0 +1,65 @@
+# Terms #
+
+  * [recordedBy](http://rs.tdwg.org/dwc/terms/recordedBy)
+
+# Recommendations #
+
+## How to express a collector name ##
+
+Recommended authority file: Harvard Index of Botanists database:  [HUH Index of botanists](http://kiki.huh.harvard.edu/databases/botanist_index.html)
+
+### Full name ###
+
+  * Recommended.
+  * Provide as much detail as possible (do not shortform)
+
+Last name, first names, title.
+
+| Macklin, James Alexander |
+|:-------------------------|
+| Macklin, James A. |
+| Macklin, J. A. |
+| Macklin, J. |
+
+| Nash, Thomas H., III |
+|:---------------------|
+| Nash, Thomas H. |
+| Nash, T. H. |
+| Nash, T. |
+
+### Standard/label name (HUH) ###
+
+  * Alternative
+
+First initial, Middle initial(s), Last name
+
+| J. A. Macklin |
+|:--------------|
+| C. Linnaeus |
+
+## How to express collecting teams (i.e., more than one collector) ##
+
+  * The primary collector, especially one who applies a personal identifier (recordNumber), should be listed first.
+  * Formatting should follow the recommendations for a single collector.
+  * Separate with "|" or ";" (Note: this differs from the Harvard Index Team notation)
+  * Avoid "&" for separating the last author. (Note: this differs from the Harvard Index Team notation)
+  * Mention that you can concatenate collector fields.
+  * Use verbatim
+
+Last name1, First names1, title1; Last name2, First names2, title2
+
+| Macklin, James A.; Moore, Gerry; Lendemer, James Colin |
+|:-------------------------------------------------------|
+
+  * Where a team/expedition name has been designated and no names are available, use the team/expedition name.
+
+| FloraQuebeca |
+|:-------------|
+| Hay, Stuart G.; FloraQuebeca |
+
+| Edinburgh Expedition to Sikkim & Darjeeling|
+|:-------------------------------------------|
+(Note that in this example the "&" remains as it is part of the expedition name.)
+
+| Bean, Ralph Carleton; Josselyn Botanical Society |
+|:-------------------------------------------------|

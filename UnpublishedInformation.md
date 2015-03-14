@@ -1,0 +1,22 @@
+# Terms #
+
+  * [informationWithheld](http://rs.tdwg.org/dwc/terms/informationWithheld)
+  * [dataGeneralizations](http://rs.tdwg.org/dwc/terms/dataGeneralizations)
+
+# Recommendations #
+
+informationWithheld is for additional information that exists, but that has not been shared in the given record.
+
+dataGeneralizations is for describing actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.
+
+# Examples #
+
+| **informationWithheld** |
+|:------------------------|
+| location information not given for endangered species |
+| collector identities withheld |
+| ask about tissue samples |
+
+| **dataGeneralizations** |
+|:------------------------|
+| coordinates generalized from original GPS coordinates to the nearest half degree grid cell |

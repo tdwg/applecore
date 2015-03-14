@@ -1,0 +1,16 @@
+# Terms #
+
+  * [samplingProtocol](http://rs.tdwg.org/dwc/terms/samplingProtocol)
+  * [samplingEffort](http://rs.tdwg.org/dwc/terms/samplingEffort)
+
+# Recommendations #
+
+samplingProtocol is the name of, reference to, or description of the method or protocol used during an Event. Recommended to use a source and controlled vocabulary
+
+samplingEffort is the amount of effort expended during an Event.
+
+# Examples #
+
+| **samplingProtocol** | **samplingEffort** |
+|:---------------------|:-------------------|
+| Systematic random sample as per Measuring and monitoring plant populations. National Applied Resource Sciences Center, Bureau of Land Management, Denver, Colorado, USA. 477 p. | sampled every 10th plant in population |

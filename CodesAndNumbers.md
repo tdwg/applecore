@@ -1,0 +1,66 @@
+# Terms #
+
+  * [institutionCode](http://rs.tdwg.org/dwc/terms/institutionCode)
+  * [institutionID](http://rs.tdwg.org/dwc/terms/institutionID)
+  * [collectionCode](http://rs.tdwg.org/dwc/terms/collectionCode)
+  * [collectionID](http://rs.tdwg.org/dwc/terms/collectionID)
+  * [datasetName](http://rs.tdwg.org/dwc/terms/datasetName)
+  * [datasetID](http://rs.tdwg.org/dwc/terms/datasetID)
+
+  * [catalogNumber](http://rs.tdwg.org/dwc/terms/catalogNumber)
+  * [occurrenceID](http://rs.tdwg.org/dwc/terms/occurrenceID)
+  * [otherCatalogNumbers](http://rs.tdwg.org/dwc/terms/otherCatalogNumbers)
+
+  * [recordNumber](http://rs.tdwg.org/dwc/terms/recordNumber)
+  * duplicatesAt (suggested addition to DwC)
+
+# Recommendations #
+
+## General ##
+With the exception of _otherCatalogNumbers_ and _recordNumber_, provide only a single value per term for all the above terms (no concatenated lists).
+
+_institutionCode_, _institutionID_, _collectionCode_, _collectionID_, _datasetID_ and often _datasetName_ are typically the same for all specimen records in a collection dataset. It is useful to provide them for each record, as it allows to reference an individual specimen, but they can be described in more detail in the dataset **metadata**.
+
+## Institution name ##
+Publish the name of the institution having custody of the specimens in **_[institutionCode](http://rs.tdwg.org/dwc/terms/institutionCode)_**. This would be the university, museum or other institution with which the herbarium is associated. If the institution is well-known by its acronym, it can be used, although it is generally more informative to use the full name.
+
+If the institution is registered with the [GBIF](http://www.gbif.org), you can publish the UUID issued by the [Global Biodiversity Resources Discovery System (GBRDS)](http://gbrds.gbif.org/) in **_[institutionID](http://rs.tdwg.org/dwc/terms/institutionID)_** (e.g. "[ff7bd5db-b724-4932-b496-10ea298851f9](http://gbrds.gbif.org/browse/agent?uuid=ff7bd5db-b724-4932-b496-10ea298851f9)"), even though this ID is currently not resolvable. GBIF is investigating DOIs as a more stable and resolvable identifier.
+
+## Collection code ##
+The collection code is the coden, acronym or name of the herbarium. It is used to identify and reference the herbarium as collection and is often registered with [Index Herbariorum](http://sciweb.nybg.org/science2/IndexHerbariorum.asp)). Ideally its coden is unique in the world.
+
+Publish the Index Herbariorum coden of the herbarium in **_[collectionCode](http://rs.tdwg.org/dwc/terms/collectionCode)_**. If the herbarium does not have an Index Herbariorum coden, use the full herbarium name or unregistered acronym instead.
+
+If the herbarium is registered with the [Biodiversity Collections Index](http://www.biodiversitycollectionsindex.org/) or another official registry, publish the collection identifier issued by one (!) of those registries in **_[collectionID](http://rs.tdwg.org/dwc/terms/collectionID)_**. It is preferred to use the unresolved identifier: urn:lsid:biocol.org:col:14437, not http://biocol.org/urn:lsid:biocol.org:col:34164.
+
+## Dataset ##
+Ideally, all digitized specimens of a herbarium are published as one dataset, although this might differ for management reasons. As with the institutionID, if the dataset is registered with [GBIF](http://www.gbif.org), publish the the UUID issued by the [GBRDS](http://gbrds.gbif.org/) in **_[datasetID](http://rs.tdwg.org/dwc/terms/datasetID)_** (e.g. "[0348540a-e644-4496-89d3-c257da9ad776](http://gbrds.gbif.org/browse/agent?uuid=0348540a-e644-4496-89d3-c257da9ad776)"). GBIF is investigating DOIs as a more stable and resolvable identifier.
+
+**_[datasetName](http://rs.tdwg.org/dwc/terms/datasetName)_** can be used to differentiate subcollections in the dataset (see also below).
+
+## Specimen number ##
+The specimen number is the primary identifier used by the herbarium to identify and reference a single specimen. This string of characters is typically stamped, sticked, printed or written on to the physical specimen and may be called the barcode number, accession number or catalogue number. It is strongly recommended to use a unique specimen number for each specimen in the herbarium.
+
+Publish the specimen number in **_[catalogNumber](http://rs.tdwg.org/dwc/terms/catalogNumber)_**. On its own or in combination with the _collectionCode_ it ideally creates a global unique identifier for each specimen record in the dataset. If specimen numbers are only unique within subcollections (or catalog number series) of the herbarium, it is useful to prefix the specimen number with a subcollection or series code (e.g. BRYO-10001, VASC-10001). In addition, the subcollection name can be published in _[datasetName](http://rs.tdwg.org/dwc/terms/datasetName)_.
+
+If the specimen number is unique for each specimen, publish it in **_[occurrenceID](http://rs.tdwg.org/dwc/terms/occurrenceID)_** as well. This term is mandatory for datasets published via the [GBIF IPT](http://code.google.com/p/gbif-providertoolkit/) and is not supposed to change. Alternatively, you can use a persistent ID generated by your database. If your collection cannot provide a stable and unique identifier, IPT can generate one for you (based on the line number). Ideally you would copy this generated ID back to your database, so it is stored at the source.
+
+Any specimen identifier attached to the specimen that is not used as the primary specimen number or collector number may be published in _[otherCatalogNumbers](http://rs.tdwg.org/dwc/terms/otherCatalogNumbers)_. This can include the specimen number from the original herbaria in the case of an exchange or donation. Separate identifiers with "|" or "; ".
+
+## Collector number ##
+The collector number is a personal identifier assigned by the collector to the specimen(s) at the time of collecting, and typically written on the specimen label. Collector numbers - also called collection numbers - often form chronological series of specimens collected by one or more collectors. Duplicate specimens typically get the same collector number (as apposed to specimen numbers!) and can as such help to identify duplicates across herbaria.
+
+Publish the collector number in **_[recordNumber](http://rs.tdwg.org/dwc/terms/recordNumber)_**. In the case of multiple collector numbers assigned to the same specimen, list the primary collector number first (if feasible) and separate with "|" or "; ".
+
+## Duplicate Specimens (suggested addition to DwC) ##
+It is common practice for botanical collectors to make several duplicate "collections" representing an individual or population to be distributed to other herbaria. These duplicates are all part of the same occurrence. Upon distribution, the Index Herbariorum acronym is used to indicate the other herbaria that are asserted to hold a duplicate of the collection object.
+
+Publish the duplicates in duplicatesAt. In the case of multiple duplicates for the same occurrence, list the distributing herbaria acronym first (if known) and separate with "|" or "; ".
+
+# Examples #
+
+|  | [institutionCode](http://rs.tdwg.org/dwc/terms/institutionCode) | [institutionID](http://rs.tdwg.org/dwc/terms/institutionID) | [collectionCode](http://rs.tdwg.org/dwc/terms/collectionCode) | [collectionID](http://rs.tdwg.org/dwc/terms/collectionID) | [datasetName](http://rs.tdwg.org/dwc/terms/datasetName) | [datasetID](http://rs.tdwg.org/dwc/terms/datasetID) | [catalogNumber](http://rs.tdwg.org/dwc/terms/catalogNumber) | [occurrenceID](http://rs.tdwg.org/dwc/terms/occurrenceID) | [otherCatalogNumbers](http://rs.tdwg.org/dwc/terms/otherCatalogNumbers) | [recordNumber](http://rs.tdwg.org/dwc/terms/recordNumber) |
+|:-|:----------------------------------------------------------------|:------------------------------------------------------------|:--------------------------------------------------------------|:----------------------------------------------------------|:--------------------------------------------------------|:----------------------------------------------------|:------------------------------------------------------------|:----------------------------------------------------------|:------------------------------------------------------------------------|:----------------------------------------------------------|
+| **1** | Université de Montréal Biodiversity Centre | ff7bd5db-b724-4932-b496-10ea298851f9 | MT | urn:lsid:biocol.org:col:14437 | Bryophytes | ada5d0b1-07de-4dc0-83d4-e312f0fb81cb | MT00168679 | 168979 | DAO-94042|SFS-102678 | 4376 |
+| **2** | University of British Columbia | b542788f-0dc2-4a2b-b652-fceced449591 | UBC | urn:lsid:biocol.org:col:15106 | Vascular Plants |  | V96119 | 319 |  | 9072 |
+| **3** | Harvard University |  | A | urn:lsid:biocol.org:col:15406 |  |  | barcode-00016549 | [http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/8fdfc639-39c2-4933-a1e5-77107a9a5b83](http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/8fdfc639-39c2-4933-a1e5-77107a9a5b83) |  | 40 |

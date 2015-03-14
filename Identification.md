@@ -1,0 +1,81 @@
+# Terms #
+
+  * [identifiedBy](http://rs.tdwg.org/dwc/terms/identifiedBy)
+  * [dateIdentified](http://rs.tdwg.org/dwc/terms/dateIdentified)
+  * [identificationQualifier](http://rs.tdwg.org/dwc/terms/identificationQualifier)
+  * [identificationRemarks](http://rs.tdwg.org/dwc/terms/identificationRemarks)
+  * [identificationReferences](http://rs.tdwg.org/dwc/terms/identificationReferences)
+  * [identificationVerificationStatus](http://rs.tdwg.org/dwc/terms/identificationVerificationStatus)
+  * [previousIdentifications](http://rs.tdwg.org/dwc/terms/previousIdentifications)
+
+# Recommendations #
+
+One of the greatest reasons to capture specimen data and make it accessible is to facilitate/encourage determinations. Here, we are using determination as a more general concept which encompasses identifications, type status, publication, etc. (i.e., anything that can be determined about a specimen). It is generally accepted that capturing some or all determinations on a specimen has value beyond the common practice of only capturing the label name and the most recent identification. Thus, we are recommending an identification extension to allow these valuable relationships to be captured. Please note that we do not consider typification information to be an identification as is suggested by the inclusion of a "typeStatus" in the GBIF extension cited below. Type information in DwC is associated with the specimen and the recommendation for its use is found here: [TypeStatus](http://code.google.com/p/applecore/wiki/TypeStatus)
+
+Identification extension: http://rs.gbif.org/extension/dwc/identification.xml
+
+## identificationOrder (NEW) ##
+{JM: This is a new term, correct? This does not exist in the extension, either. Should we recommend its addition to the extension also/instead?}
+  * Add identificationOrder to DwC: "1" is first identification (on label; typically by collector), "Nth" is the most recent identification.
+  * Populate [scientificName](http://code.google.com/p/applecore/wiki/ScientificName) with the most recent identification ("Nth"), or the "filed-as" name, even if you have populated the identification extension!
+
+## identifiedBy ##
+
+  * Same rules as for [collectors](http://code.google.com/p/applecore/wiki/Collectors)
+
+## dateIdentified ##
+
+  * same rules as for [eventDate or verbatimEventDate](http://code.google.com/p/applecore/wiki/CollectionDate)
+
+## identificationQualifier ##
+
+  * Controlled vocabulary: some terms and definitions from Bridson, D., & Forman, L. (Eds.). (1999). The Herbarium Handbook (3rd ed.). Kew: Royal Botanic Gardens.
+
+  * These terms "qualify" the identification found in [scientificName](http://code.google.com/p/applecore/wiki/ScientificName).
+
+| term/abbreviation | english | definition |
+|:------------------|:--------|:-----------|
+| confer/cf. | compare | Implies that the specimen does not exactly match the species but should be compared with it. |
+| affinis/aff. | affinity | Related to (or bordering). Implies that the specimen does not exactly match the species but is related to it. |
+| ? |  | Determiner expresses doubt about determination. <font color='red'>This refers to a previous determination. How do we express this? pws, jm</font> |
+| forsan | perhaps | Determiner expresses doubt about determination. <font color='red'>This refers to a previous determination. How do we express this? pws, jm</font> |
+
+Example from DwC comment for [identificationQualifier](http://rs.tdwg.org/dwc/terms/index.htm#identificationQualifier): "For the determination "Quercus aff. agrifolia var. oxyadenia", identificationQualifier would be "aff. agrifolia var. oxyadenia" with accompanying values "Quercus" in genus, "agrifolia" in specificEpithet, "oxyadenia" in infraspecificEpithet, and "var." in rank. 2) For the determination "Quercus agrifolia cf. var. oxyadenia", identificationQualifier would be "cf. var. oxyadenia " with accompanying values "Quercus" in genus, "agrifolia" in specificEpithet, "oxyadenia" in infraspecificEpithet, and "var." in rank."
+
+## identificationRemarks ##
+
+  * Should apply to that identification only.
+  * Not structured = verbatim.
+  * Any interpretation of that field in [brackets](square.md).
+  * Place statements about nomenclature here (e.g., _nom. nud._, _nom. nov._, _nom. illegit._, _sens. auct._, etc.).
+  * Place statements about taxonomic concepts here (e.g., _sens. lato_, _sens. str._, etc.).
+| haud | not at all |  A determiner (not the identifiedBy individual)  with determination. <font color='red'>This refers to a previous determination. How do we express this? pws, jm</font>|
+|:-----|:-----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| not |  | A determiner (not the identifiedBy individual) disagrees with determination. <font color='red'>This refers to a previous determination. How do we express this? pws, jm</font>|
+
+## identificationReferences ##
+
+  * Flora used for identification
+  * Reference is unstructured.
+  * Different references separated by "|" or "; "
+  * Any interpretation of that field in [brackets](square.md).
+
+## nameAccordingTo ##
+
+  * Reference for this name
+
+## vernacularName ##
+
+Problematic, only one name can be shared + no language.
+
+## taxonRemarks, taxonomicStatus, nomenclaturalStatus ##
+
+Maybe useful for types?
+
+## previousIdentifications ##
+
+  * Provide identifications in order: oldest to newest
+  * Different identifications separated by "|" or "; "
+  * Try to order the fields in a consistent way, e.g. scientific name; person; date; remarks. Use a different delimiter for the fields and the identifications
+
+# Examples #
